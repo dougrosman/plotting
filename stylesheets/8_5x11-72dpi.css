@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.p5Canvas {
+    display: block !important;
+    box-shadow: 0 0 40px 0 #ccc;
+}
