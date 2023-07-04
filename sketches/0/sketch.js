@@ -18,7 +18,7 @@ function setup() {
         anchors.push(new Anchor());
     }
 
-    strokeWeight(0.01);
+    strokeWeight(0.25);
 }
 
 function draw() {
