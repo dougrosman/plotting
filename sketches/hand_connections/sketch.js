@@ -5,6 +5,7 @@
 let sketch = function (p) {
 
   let font;
+  let pdf;
 
   const PALM = [0, 1, 5, 9, 13, 17, 0];
   const THUMB = [1, 2, 3, 4];
@@ -20,7 +21,7 @@ let sketch = function (p) {
   }
 
   p.setup = function () {
-    p.createCanvas(cam_w, cam_h);
+    p.createCanvas(cam_w, cam_h, p.SVG);
     p.textFont(font);
     p.textSize(16)
   }
@@ -37,6 +38,11 @@ let sketch = function (p) {
 
   p.drawHands = function () {
     p.stroke(0, 255, 0);
+
+
+
+    // draw stuff
+
 
 
     // loop through both hands
@@ -63,9 +69,6 @@ let sketch = function (p) {
       }
 
 
-
-
-
       // draw the hand lines
       // loop through the array of hand parts
       for (let j = 0; j < HAND_PARTS.length; j++) {
@@ -73,7 +76,7 @@ let sketch = function (p) {
         p.push();
         p.noFill();
         p.strokeWeight(2);
-        p.stroke(255 / j, 0, 255);
+        p.stroke(0);
         p.beginShape();
         for (let k = 0; k < HAND_PARTS[j].length; k++) {
           const currPoint = HAND_PARTS[j][k];
@@ -95,13 +98,24 @@ let sketch = function (p) {
         const x = p.width - (detections.multiHandLandmarks[i][j].x * p.width);
         const y = detections.multiHandLandmarks[i][j].y * p.height;
 
-        p.strokeWeight(8);
-        p.stroke(0, 255, 0);
-        p.point(x, y);
+        p.noStroke(8);
+        p.fill(0, 0, 0);
+        p.ellipse(x, y, 10, 10);
 
       }
     }
   }
+
+  p.keyPressed = function () {
+
+    setTimeout(function () {
+      pdf = p.createPDF();
+      pdf.beginRecord();
+      pdf.save();
+    }, 4000)
+
+  }
+
 }
 
 let myp5 = new p5(sketch)
