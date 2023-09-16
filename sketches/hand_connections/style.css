@@ -7,5 +7,5 @@ canvas, video {
   
 }
 
-canvas { z-index: 1;}
+.p5Canvas { z-index: 1; border: 2px solid black;}
 video { z-index: 0; transform: scaleX(-1); display: none; }
