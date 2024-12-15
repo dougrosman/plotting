@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Frame Annotation</title>
   <script src="p5.min.js"></script>
+  <script src="p5.sound.min.js"></script>
   <script src="sketch.js" defer></script>
 </head>
 <body>
@@ -18,6 +19,17 @@
   <div id="controls">
     <label for="personName">Person Name:</label>
     <input type="text" id="personName" placeholder="Enter name" />
+    <button id="resetButton">Reset</button>
+  </div>
+
+  <div id="stats">
+    <h3>Stats</h3>
+    <p id="currentFrame">Current Frame: 0</p>
+    <p id="elapsedTime">Elapsed Time: 0s</p>
+    <p id="shortestTime">Shortest Time: N/A</p>
+    <p id="averageTime">Average Time: N/A</p>
+    <p id="estimatedTime">Estimated Completion Time: N/A</p>
+    <ul id="frameTimes">Frame Times:</ul>
   </div>
 </body>
 </html>

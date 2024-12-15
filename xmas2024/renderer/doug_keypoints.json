@@ -1,0 +1,447 @@
+[
+  {
+    "keypoints": [
+      {
+        "x": 464,
+        "y": 649,
+        "name": "Nose"
+      },
+      {
+        "x": 467,
+        "y": 638,
+        "name": "Left Eye"
+      },
+      {
+        "x": 456,
+        "y": 637,
+        "name": "Right Eye"
+      },
+      {
+        "x": 441,
+        "y": 638,
+        "name": "Left Ear"
+      },
+      {
+        "x": 424,
+        "y": 637,
+        "name": "Right Ear"
+      },
+      {
+        "x": 475,
+        "y": 718,
+        "name": "Left Shoulder"
+      },
+      {
+        "x": 383,
+        "y": 682,
+        "name": "Right Shoulder"
+      },
+      {
+        "x": 511,
+        "y": 766,
+        "name": "Left Elbow"
+      },
+      {
+        "x": 403,
+        "y": 736,
+        "name": "Right Elbow"
+      },
+      {
+        "x": 562,
+        "y": 810,
+        "name": "Left Wrist"
+      },
+      {
+        "x": 485,
+        "y": 762,
+        "name": "Right Wrist"
+      },
+      {
+        "x": 438,
+        "y": 876,
+        "name": "Left Hip"
+      },
+      {
+        "x": 351,
+        "y": 855,
+        "name": "Right Hip"
+      },
+      {
+        "x": 460,
+        "y": 966,
+        "name": "Left Knee"
+      },
+      {
+        "x": 301,
+        "y": 958,
+        "name": "Right Knee"
+      },
+      {
+        "x": 453,
+        "y": 1112,
+        "name": "Left Ankle"
+      },
+      {
+        "x": 253,
+        "y": 1098,
+        "name": "Right Ankle"
+      }
+    ]
+  },
+  {
+    "keypoints": [
+      {
+        "x": 464,
+        "y": 648,
+        "name": "Nose"
+      },
+      {
+        "x": 467,
+        "y": 639,
+        "name": "Left Eye"
+      },
+      {
+        "x": 455,
+        "y": 636,
+        "name": "Right Eye"
+      },
+      {
+        "x": 438,
+        "y": 639,
+        "name": "Left Ear"
+      },
+      {
+        "x": 423,
+        "y": 638,
+        "name": "Right Ear"
+      },
+      {
+        "x": 471,
+        "y": 716,
+        "name": "Left Shoulder"
+      },
+      {
+        "x": 379,
+        "y": 683,
+        "name": "Right Shoulder"
+      },
+      {
+        "x": 513,
+        "y": 766,
+        "name": "Left Elbow"
+      },
+      {
+        "x": 403,
+        "y": 738,
+        "name": "Right Elbow"
+      },
+      {
+        "x": 562,
+        "y": 806,
+        "name": "Left Wrist"
+      },
+      {
+        "x": 491,
+        "y": 766,
+        "name": "Right Wrist"
+      },
+      {
+        "x": 437,
+        "y": 873,
+        "name": "Left Hip"
+      },
+      {
+        "x": 351,
+        "y": 854,
+        "name": "Right Hip"
+      },
+      {
+        "x": 461,
+        "y": 966,
+        "name": "Left Knee"
+      },
+      {
+        "x": 303,
+        "y": 961,
+        "name": "Right Knee"
+      },
+      {
+        "x": 453,
+        "y": 1110,
+        "name": "Left Ankle"
+      },
+      {
+        "x": 250,
+        "y": 1098,
+        "name": "Right Ankle"
+      }
+    ]
+  },
+  {
+    "keypoints": [
+      {
+        "x": 463,
+        "y": 649,
+        "name": "Nose"
+      },
+      {
+        "x": 467,
+        "y": 642,
+        "name": "Left Eye"
+      },
+      {
+        "x": 455,
+        "y": 638,
+        "name": "Right Eye"
+      },
+      {
+        "x": 440,
+        "y": 641,
+        "name": "Left Ear"
+      },
+      {
+        "x": 424,
+        "y": 636,
+        "name": "Right Ear"
+      },
+      {
+        "x": 476,
+        "y": 720,
+        "name": "Left Shoulder"
+      },
+      {
+        "x": 378,
+        "y": 681,
+        "name": "Right Shoulder"
+      },
+      {
+        "x": 514,
+        "y": 771,
+        "name": "Left Elbow"
+      },
+      {
+        "x": 408,
+        "y": 739,
+        "name": "Right Elbow"
+      },
+      {
+        "x": 562,
+        "y": 808,
+        "name": "Left Wrist"
+      },
+      {
+        "x": 487,
+        "y": 761,
+        "name": "Right Wrist"
+      },
+      {
+        "x": 431,
+        "y": 871,
+        "name": "Left Hip"
+      },
+      {
+        "x": 356,
+        "y": 855,
+        "name": "Right Hip"
+      },
+      {
+        "x": 461,
+        "y": 966,
+        "name": "Left Knee"
+      },
+      {
+        "x": 303,
+        "y": 960,
+        "name": "Right Knee"
+      },
+      {
+        "x": 453,
+        "y": 1111,
+        "name": "Left Ankle"
+      },
+      {
+        "x": 252,
+        "y": 1099,
+        "name": "Right Ankle"
+      }
+    ]
+  },
+  {
+    "keypoints": [
+      {
+        "x": 464,
+        "y": 649,
+        "name": "Nose"
+      },
+      {
+        "x": 468,
+        "y": 642,
+        "name": "Left Eye"
+      },
+      {
+        "x": 457,
+        "y": 637,
+        "name": "Right Eye"
+      },
+      {
+        "x": 439,
+        "y": 640,
+        "name": "Left Ear"
+      },
+      {
+        "x": 424,
+        "y": 638,
+        "name": "Right Ear"
+      },
+      {
+        "x": 478,
+        "y": 717,
+        "name": "Left Shoulder"
+      },
+      {
+        "x": 385,
+        "y": 683,
+        "name": "Right Shoulder"
+      },
+      {
+        "x": 519,
+        "y": 768,
+        "name": "Left Elbow"
+      },
+      {
+        "x": 409,
+        "y": 739,
+        "name": "Right Elbow"
+      },
+      {
+        "x": 561,
+        "y": 805,
+        "name": "Left Wrist"
+      },
+      {
+        "x": 496,
+        "y": 765,
+        "name": "Right Wrist"
+      },
+      {
+        "x": 436,
+        "y": 862,
+        "name": "Left Hip"
+      },
+      {
+        "x": 361,
+        "y": 845,
+        "name": "Right Hip"
+      },
+      {
+        "x": 466,
+        "y": 969,
+        "name": "Left Knee"
+      },
+      {
+        "x": 309,
+        "y": 950,
+        "name": "Right Knee"
+      },
+      {
+        "x": 456,
+        "y": 1110,
+        "name": "Left Ankle"
+      },
+      {
+        "x": 253,
+        "y": 1100,
+        "name": "Right Ankle"
+      }
+    ]
+  },
+  {
+    "keypoints": [
+      {
+        "x": 465,
+        "y": 648,
+        "name": "Nose"
+      },
+      {
+        "x": 468,
+        "y": 641,
+        "name": "Left Eye"
+      },
+      {
+        "x": 458,
+        "y": 636,
+        "name": "Right Eye"
+      },
+      {
+        "x": 437,
+        "y": 642,
+        "name": "Left Ear"
+      },
+      {
+        "x": 424,
+        "y": 639,
+        "name": "Right Ear"
+      },
+      {
+        "x": 481,
+        "y": 720,
+        "name": "Left Shoulder"
+      },
+      {
+        "x": 383,
+        "y": 682,
+        "name": "Right Shoulder"
+      },
+      {
+        "x": 518,
+        "y": 764,
+        "name": "Left Elbow"
+      },
+      {
+        "x": 407,
+        "y": 740,
+        "name": "Right Elbow"
+      },
+      {
+        "x": 560,
+        "y": 809,
+        "name": "Left Wrist"
+      },
+      {
+        "x": 493,
+        "y": 764,
+        "name": "Right Wrist"
+      },
+      {
+        "x": 435,
+        "y": 865,
+        "name": "Left Hip"
+      },
+      {
+        "x": 362,
+        "y": 849,
+        "name": "Right Hip"
+      },
+      {
+        "x": 466,
+        "y": 970,
+        "name": "Left Knee"
+      },
+      {
+        "x": 307,
+        "y": 957,
+        "name": "Right Knee"
+      },
+      {
+        "x": 455,
+        "y": 1112,
+        "name": "Left Ankle"
+      },
+      {
+        "x": 254,
+        "y": 1102,
+        "name": "Right Ankle"
+      }
+    ]
+  }
+]

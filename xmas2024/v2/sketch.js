@@ -14,6 +14,7 @@ function setup() {
     img.resize(width, height)
     bodyPose.detect(img, gotPoses)
     connections = bodyPose.getSkeleton()
+    console.log(connections)
     colorMode(HSB)
 }
 
