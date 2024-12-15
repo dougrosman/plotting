@@ -1,109 +1,90 @@
-let vid
-let videoHTML;
-let bodyPose
-let poses = []
-let connections
-let selectedPoint;
-let allPoses = [];
+let images = [];
+    let currentFrame = 0;
+    const frameCount = 136; // Total number of frames
+    const keypointsList = [
+      "Nose", "Left Eye", "Right Eye", "Left Ear", "Right Ear",
+      "Left Shoulder", "Right Shoulder", "Left Elbow", "Right Elbow",
+      "Left Wrist", "Right Wrist", "Left Hip", "Right Hip",
+      "Left Knee", "Right Knee", "Left Ankle", "Right Ankle"
+    ];
+    let currentKeypointIndex = 0;
+    let allFrames = [];
+    let currentKeypoints = [];
 
-function preload() {
-    vid = createVideo("video/doug_emrys_acro2.mov", muteVideo)
-    vid.hide();
-    bodyPose = ml5.bodyPose("MoveNet", options);
-    videoHTML = document.querySelector('video')
-}
-
-let options = {
-    modelType: "MULTIPOSE_LIGHTNING", // "MULTIPOSE_LIGHTNING", "SINGLEPOSE_LIGHTNING", or "SINGLEPOSE_THUNDER".
-    enableSmoothing: false,
-    minPoseScore: 0.1,
-    multiPoseMaxDimension: 512,
-    enableTracking: true,
-    trackerType: "boundingBox", // "keypoint" or "boundingBox"
-    trackerConfig: {},
-    modelUrl: undefined,
-    flipped: false
-  }
-
-function setup() {
-    createCanvas(720, 1280)
-    vid.size(width, height)
-    bodyPose.detectStart(vid, gotPoses)
-    connections = bodyPose.getSkeleton()
-    colorMode(HSB)
-    
-}
-
-
-
-// Mute the video once it loads.
-function muteVideo() {
-    vid.volume(0);
-    vid.play();
-    //vid.loop();
-  }
-
-function draw() {
-    image(vid, 0, 0)
-    push();
-    for (let i = 0; i < poses.length; i++ ) {
-        let pose = poses[i]
-        
-        // draw connections
-        let h = map(i, 0, poses.length-1, 0, 255)
-        fill(h, 30, 70)
-        beginShape(LINES)
-        
-        for(let j = 0; j < connections.length; j++) {
-            strokeWeight(2)
-            stroke(h, 100, 60)
-            let pointAIndex = connections[j][0]
-            let pointBIndex = connections[j][1]
-
-            let pointA = pose.keypoints[pointAIndex]
-            let pointB = pose.keypoints[pointBIndex]
-     
-
-            vertex(pointA.x, pointA.y)
-            vertex(pointB.x, pointB.y)
-        }
-        endShape()
-
-        // draw keypoints
-        for (kp of pose.keypoints) {
-            strokeWeight(12)
-            fill(h, 100, 60)
-            stroke(h, 100, 60)
-            point(kp.x, kp.y)
-        }
+    function preload() {
+      for (let i = 1; i <= frameCount; i++) {
+        let framePath = `frames/frame_${String(i).padStart(4, '0')}.jpg`;
+        images.push(loadImage(framePath));
+      }
     }
-    videoHTML.onended = (event) => {
-        bodyPose.detectStop();
-        console.log(allPoses);
-    
-        // Convert the array to a JSON string
-        const jsonString = JSON.stringify(allPoses, null, 2); // `null, 2` for pretty formatting
-    
-        // Create a Blob object representing the JSON data
-        const blob = new Blob([jsonString], { type: 'application/json' });
-    
-        // Create a temporary anchor element
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
-        link.download = 'allPoses.json'; // Name of the JSON file to save
-    
-        // Append the link, trigger the download, and remove the link
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-    
-}
 
+    function setup() {
+      let canvas = createCanvas(800, 1280);
+      canvas.parent("canvas-container");
+      displayFrame();
+    }
 
-
-
-function gotPoses(results) {
-    poses = results
-    allPoses.push(poses)
-}
+    function draw() {
+        displayFrame();
+        currentKeypoints.forEach(keypoint => {
+          fill(255, 0, 0);
+          noStroke();
+          ellipse(keypoint.x, keypoint.y, 6, 6);
+        });
+      }
+  
+      function displayFrame() {
+        background(255);
+        if (images[currentFrame]) {
+          image(images[currentFrame], 40, 0);
+        }
+        updatePreview();
+        drawCurrentKeypointLabel();
+      }
+  
+      function drawCurrentKeypointLabel() {
+        fill(0);
+        textSize(16);
+        text(`Annotating: ${keypointsList[currentKeypointIndex]}`, 10, height - 20);
+      }
+  
+      function mousePressed() {
+        if (mouseX >= 0 && mouseX <= width && mouseY >= 0 && mouseY <= height) {
+          let keypoint = {
+            x: mouseX,
+            y: mouseY,
+            name: keypointsList[currentKeypointIndex]
+          };
+          currentKeypoints.push(keypoint);
+          currentKeypointIndex++;
+  
+          if (currentKeypointIndex >= keypointsList.length) {
+            allFrames.push({ keypoints: currentKeypoints });
+            currentKeypoints = [];
+            currentKeypointIndex = 0;
+            currentFrame++;
+            if (currentFrame >= frameCount) {
+              currentFrame = frameCount - 1; // Stop at the last frame
+            }
+            displayFrame();
+          } else {
+            drawCurrentKeypointLabel();
+          }
+          updatePreview();
+        }
+      }
+  
+      function updatePreview() {
+        document.getElementById("jsonPreview").textContent = JSON.stringify(allFrames, null, 2);
+      }
+  
+      function keyPressed() {
+        if (keyCode === RETURN) {
+          let personName = document.getElementById("personName").value.trim();
+          if (!personName) {
+            alert("Please enter a person name before saving.");
+            return;
+          }
+          saveJSON(allFrames, `${personName}_keypoints.json`);
+        }
+      }
