@@ -55,49 +55,52 @@ function calculateBoundingBoxes() {
     let highestX = 0
     let highestY = 0
 
-    for(let i = 0; i < allPoses[0].length; i++) {
+    // loop as long as all poses from one person
+    for (let i = 0; i < allPoses[0].length; i++) {
         let dougPose = dougPoses[i]
         let emrysPose = emrysPoses[i]
 
-        for(let j = 0; j < dougPose.keypoints.length; j++) {
+        // loop as long as keypoints from one person
+        for (let j = 0; j < dougPose.keypoints.length; j++) {
             let dkp = dougPose.keypoints[j]
             let ekp = emrysPose.keypoints[j]
 
-            
-                if (dkp.x < lowestX) {
-                    lowestX = dkp.x
-                }
-                if (dkp.y < lowestY) {
-                    lowestY = dkp.y
-                }
+            if (dkp.x < lowestX) {
+                lowestX = dkp.x
+            }
+            if (dkp.y < lowestY) {
+                lowestY = dkp.y
+            }
 
-                if (ekp.x < lowestX) {
-                    lowestX = ekp.x
-                }
-                if (ekp.y < lowestY) {
-                    lowestY = ekp.y
-                }
+            if (ekp.x < lowestX) {
+                lowestX = ekp.x
+            }
+            if (ekp.y < lowestY) {
+                lowestY = ekp.y
+            }
 
-                if (dkp.x < highestX) {
-                    highestX = dkp.x
-                }
-                if (dkp.y < highestY) {
-                    highestY = dkp.y
-                }
+            if (dkp.x < highestX) {
+                highestX = dkp.x
+            }
+            if (dkp.y < highestY) {
+                highestY = dkp.y
+            }
 
-                if (ekp.x < highestX) {
-                    highestX = ekp.x
-                }
-                if (ekp.y < highestY) {
-                    highestY = ekp.y
-                }
+            if (ekp.x < highestX) {
+                highestX = ekp.x
+            }
+            if (ekp.y < highestY) {
+                highestY = ekp.y
+            }
+            dougPose.lowestX = lowestX;
+            dougPose.lowestY = lowestY;
+            emrysPose.width = highestX - lowestX;
+            emrysPose.height = highestY - lowestY;
         }
+        
     }
 
-    pose.lowestX = lowestX;
-    pose.lowestY = lowestY;
-    pose.width = highestX - lowestX;
-    pose.height = highestY - lowestY;
+
 
 }
 
@@ -130,12 +133,12 @@ function drawConnections(pose) {
 
 async function drawAllPoses() {
 
-    for(poses of allPoses) {
+    for (poses of allPoses) {
 
         let translateXAmount = 0;
         for (let i = 0; i < poses.length; i++) {
             let p = poses[i]
-            
+
             push()
             scale(.4)
             translate(translateXAmount, 0)
