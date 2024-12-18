@@ -81,7 +81,7 @@ let images = [];
         keypointCooldown = true;
         setTimeout(() => {
           keypointCooldown = false;
-        }, 300);
+        }, 1);
 
         if (currentKeypointIndex >= keypointsList.length) {
           completeFrame();

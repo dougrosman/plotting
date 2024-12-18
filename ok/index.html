@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Playback Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .controls {
+            margin-top: 20px;
+        }
+        input[type="range"] {
+            width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Playback Speed Control</h1>
+    <audio id="audio" src="wii_shop_music.mp3" loop></audio>
+    <div class="controls">
+        <p>Use the slider to adjust playback speed increment and click the button to apply.</p>
+        <input type="range" id="speedSlider" min="-1" max="1" step="0.1" value="0">
+        <br>
+        <button id="applySpeed">Add to Playback Speed</button>
+        <p>Current Playback Rate: <span id="playbackRateDisplay">1.0</span></p>
+    </div>
+    <script>
+        const audio = document.getElementById("audio");
+        const speedSlider = document.getElementById("speedSlider");
+        const applySpeedButton = document.getElementById("applySpeed");
+        const playbackRateDisplay = document.getElementById("playbackRateDisplay");
+
+        // Initialize playback rate
+        audio.playbackRate = 1.0;
+
+        // Play the audio automatically when the page loads
+        window.onload = () => {
+            audio.play();
+        };
+
+        // Add to the current playback speed and update display
+        applySpeedButton.addEventListener("click", () => {
+            let sliderValue = parseFloat(speedSlider.value);
+            let newRate = audio.playbackRate + sliderValue;
+            
+            if (newRate < 0.1) {
+                newRate = 0.1; // Minimum playback speed
+            }
+            audio.playbackRate = newRate;
+            playbackRateDisplay.textContent = audio.playbackRate.toFixed(1);
+        });
+
+        // Update the display live when moving the slider
+        speedSlider.addEventListener("input", () => {
+            playbackRateDisplay.textContent = (audio.playbackRate + parseFloat(speedSlider.value)).toFixed(1);
+        });
+    </script>
+</body>
+</html>

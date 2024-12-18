@@ -12,8 +12,8 @@ function setup() {
     stroke(255, 0, 255);
     strokeWeight(0.25);
 
-    pdf = createPDF();
-    pdf.beginRecord();
+    // pdf = createPDF();
+    // pdf.beginRecord();
     
     beginShape()
     for(let i = 0; i < 1620; i++) {
@@ -26,7 +26,7 @@ function setup() {
     }
     endShape()
 
-    pdf.save();
+    //pdf.save();
 }
 
 function draw() {
