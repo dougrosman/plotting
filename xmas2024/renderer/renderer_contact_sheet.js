@@ -1,7 +1,7 @@
 let vid
 let emrysPoses = []
 let dougPoses = []
-let allPoses = []
+let allPersons = []
 let index = 0;
 let globalLowestX = 10000
 let globalLowestY = 10000
@@ -28,81 +28,24 @@ const connections = [
 function preload() {
     emrysPoses = loadJSON('emrys_keypoints.json', (data) => {
         emrysPoses = [...data]
+        allPersons.push(emrysPoses)
     })
 
     dougPoses = loadJSON('doug_keypoints.json', (data) => {
         dougPoses = [...data]
+        allPersons.push(dougPoses)
     })
-
-    allPoses.push(emrysPoses, dougPoses)
-
-    console.log(allPoses)
-
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight)
-    //frameRate(5)
+    createCanvas(3400, 2200)
 }
 
 function draw() {
     background(255);
+    drawConnections(allPersons);
 }
 
-function calculateBoundingBoxes() {
-    let lowestX = 10000
-    let lowestY = 10000
-    let highestX = 0
-    let highestY = 0
-
-    // loop as long as all poses from one person
-    for (let i = 0; i < allPoses[0].length; i++) {
-        let dougPose = dougPoses[i]
-        let emrysPose = emrysPoses[i]
-
-        // loop as long as keypoints from one person
-        for (let j = 0; j < dougPose.keypoints.length; j++) {
-            let dkp = dougPose.keypoints[j]
-            let ekp = emrysPose.keypoints[j]
-
-            if (dkp.x < lowestX) {
-                lowestX = dkp.x
-            }
-            if (dkp.y < lowestY) {
-                lowestY = dkp.y
-            }
-
-            if (ekp.x < lowestX) {
-                lowestX = ekp.x
-            }
-            if (ekp.y < lowestY) {
-                lowestY = ekp.y
-            }
-
-            if (dkp.x < highestX) {
-                highestX = dkp.x
-            }
-            if (dkp.y < highestY) {
-                highestY = dkp.y
-            }
-
-            if (ekp.x < highestX) {
-                highestX = ekp.x
-            }
-            if (ekp.y < highestY) {
-                highestY = ekp.y
-            }
-            dougPose.lowestX = lowestX;
-            dougPose.lowestY = lowestY;
-            emrysPose.width = highestX - lowestX;
-            emrysPose.height = highestY - lowestY;
-        }
-        
-    }
-
-
-
-}
 
 function drawKeypoints(pose) {
     strokeWeight(6);
@@ -114,43 +57,41 @@ function drawKeypoints(pose) {
     endShape()
 }
 
-function drawConnections(pose) {
-    stroke(0)
-    strokeWeight(2)
-    for (let i = 0; i < connections.length; i++) {
-        let pointAIndex = connections[i][0]
-        let pointBIndex = connections[i][1]
-        let pointA = pose.keypoints[pointAIndex]
-        let pointB = pose.keypoints[pointBIndex]
-        beginShape(LINES)
-        vertex(pointA.x, pointA.y)
-        vertex(pointB.x, pointB.y)
-        endShape()
-    }
-}
+function drawConnections(persons) {
 
+    let yTrans = 0;
+    let yStep = 500;
 
-
-async function drawAllPoses() {
-
-    for (poses of allPoses) {
-
-        let translateXAmount = 0;
-        for (let i = 0; i < poses.length; i++) {
-            let p = poses[i]
-
+    
+    for (person of persons) {
+        for (pose of person) {
             push()
-            scale(.4)
-            translate(translateXAmount, 0)
-            await calculateBoundingBox(allPoses);
-            for (kp of p.keypoints) {
-                kp.x -= p.lowestX;
-                kp.y -= p.lowestY;
+            translate(yTrans, 0)
+            stroke(0)
+            strokeWeight(2)
+            for (let i = 0; i < connections.length; i++) {
+                let pointAIndex = connections[i][0]
+                let pointBIndex = connections[i][1]
+                let pointA = pose.keypoints[pointAIndex]
+                let pointB = pose.keypoints[pointBIndex]
+                beginShape(LINES)
+                vertex(pointA.x, pointA.y)
+                vertex(pointB.x, pointB.y)
+                endShape()
             }
-            drawConnections(p)
-            //drawKeypoints(p);
-            pop()
-            translateXAmount += p.width
+
+            beginShape(POINTS)
+            strokeWeight(10)
+            for(kp of pose.keypoints) {
+                vertex(kp.x, kp.y)
+            }
+            endShape()
+
+
+            pop();  
+            yTrans+=yStep
         }
+       yTrans = 0;
     }
+    
 }
