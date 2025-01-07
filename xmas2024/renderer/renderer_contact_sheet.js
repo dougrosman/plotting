@@ -60,33 +60,33 @@ function drawKeypoints(pose) {
 function drawConnections(persons) {
 
     let yTrans = 0;
-    let yStep = 500;
+    let yStep = 720;
 
     
     for (person of persons) {
         for (pose of person) {
             push()
-            translate(yTrans, 0)
-            stroke(0)
-            strokeWeight(2)
-            for (let i = 0; i < connections.length; i++) {
-                let pointAIndex = connections[i][0]
-                let pointBIndex = connections[i][1]
-                let pointA = pose.keypoints[pointAIndex]
-                let pointB = pose.keypoints[pointBIndex]
-                beginShape(LINES)
-                vertex(pointA.x, pointA.y)
-                vertex(pointB.x, pointB.y)
+            scale(1.5)
+                translate(yTrans, 0)
+                stroke(0)
+                strokeWeight(2)
+                for (let i = 0; i < connections.length; i++) {
+                    let pointAIndex = connections[i][0]
+                    let pointBIndex = connections[i][1]
+                    let pointA = pose.keypoints[pointAIndex]
+                    let pointB = pose.keypoints[pointBIndex]
+                    beginShape(LINES)
+                    vertex(pointA.x, pointA.y)
+                    vertex(pointB.x, pointB.y)
+                    endShape()
+                }
+
+                beginShape(POINTS)
+                strokeWeight(10)
+                for(kp of pose.keypoints) {
+                    vertex(kp.x, kp.y)
+                }
                 endShape()
-            }
-
-            beginShape(POINTS)
-            strokeWeight(10)
-            for(kp of pose.keypoints) {
-                vertex(kp.x, kp.y)
-            }
-            endShape()
-
 
             pop();  
             yTrans+=yStep
