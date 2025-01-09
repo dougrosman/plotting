@@ -3,6 +3,7 @@ let emrysPoses = []
 let dougPoses = []
 let allPersons = []
 let index = 0;
+let selectedPoses = [];
 const connections = [
     [0, 1],
     [0, 2],
@@ -36,16 +37,57 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(880, 1280)
+    createCanvas(1700, 1100)
     frameRate(12)
 }
 
 function draw() {
-    background(255);
-    drawConnections(allPersons);
-    textSize(40)
-    text(`Frame: ${index}`, 50, 50)
+    // background(255);
+    //drawConnections(allPersons);
+    drawPoses(dougPoses)
+    drawPoses(emrysPoses)
+    // textSize(40)
+    // text(`Frame: ${index}`, 50, 50)
     // index = (frameCount*2) % 137
+}
+
+function drawPoses(person) {
+    let xTrans = 0;
+    let yStep = 720;
+
+
+    for (let k = 0; k < person.length; k+=4) {
+
+        //for (pose of person) {
+        let pose = person[k]
+        push()
+        scale(1.25)
+        translate(300, -350)
+        stroke(0)
+        strokeWeight(2)
+        for (let i = 0; i < connections.length; i++) {
+            let pointAIndex = connections[i][0]
+            let pointBIndex = connections[i][1]
+            let pointA = pose.keypoints[pointAIndex]
+            let pointB = pose.keypoints[pointBIndex]
+            beginShape(LINES)
+            vertex(pointA.x, pointA.y)
+            vertex(pointB.x, pointB.y)
+            endShape()
+        }
+
+        strokeWeight(10)
+        beginShape(POINTS)
+        for (kp of pose.keypoints) {
+            vertex(kp.x, kp.y)
+        }
+        endShape()
+
+        pop();
+        xTrans += yStep
+        //  }
+        xTrans = 0;
+    }
 }
 
 
@@ -61,42 +103,42 @@ function drawKeypoints(pose) {
 
 function drawConnections(persons) {
 
-    let yTrans = 0;
+    let xTrans = 0;
     let yStep = 720;
 
-    
+
     for (person of persons) {
         //for (pose of person) {
         let pose = person[index]
-            push()
-            scale(1)
-                translate(yTrans, 0)
-                stroke(0)
-                strokeWeight(2)
-                for (let i = 0; i < connections.length; i++) {
-                    let pointAIndex = connections[i][0]
-                    let pointBIndex = connections[i][1]
-                    let pointA = pose.keypoints[pointAIndex]
-                    let pointB = pose.keypoints[pointBIndex]
-                    beginShape(LINES)
-                    vertex(pointA.x, pointA.y)
-                    vertex(pointB.x, pointB.y)
-                    endShape()
-                }
+        push()
+        scale(1)
+        translate(xTrans, 0)
+        stroke(0)
+        strokeWeight(2)
+        for (let i = 0; i < connections.length; i++) {
+            let pointAIndex = connections[i][0]
+            let pointBIndex = connections[i][1]
+            let pointA = pose.keypoints[pointAIndex]
+            let pointB = pose.keypoints[pointBIndex]
+            beginShape(LINES)
+            vertex(pointA.x, pointA.y)
+            vertex(pointB.x, pointB.y)
+            endShape()
+        }
 
-                beginShape(POINTS)
-                strokeWeight(10)
-                for(kp of pose.keypoints) {
-                    vertex(kp.x, kp.y)
-                }
-                endShape()
+        beginShape(POINTS)
+        strokeWeight(10)
+        for (kp of pose.keypoints) {
+            vertex(kp.x, kp.y)
+        }
+        endShape()
 
-            pop();  
-            yTrans+=yStep
-      //  }
-       yTrans = 0;
+        pop();
+        xTrans += yStep
+        //  }
+        xTrans = 0;
     }
-    
+
 }
 
 function keyPressed() {
