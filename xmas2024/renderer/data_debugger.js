@@ -2,7 +2,7 @@ let vid
 let emrysPoses = []
 let dougPoses = []
 let allPersons = []
-let index = 0;
+let index = 108;
 let globalLowestX = 10000
 let globalLowestY = 10000
 const connections = [
@@ -47,7 +47,7 @@ function draw() {
     drawConnections(allPersons);
     textSize(40)
     text(`Frame: ${index}`, 50, 50)
-    index = (frameCount*2) % 137
+    // index = (frameCount*2) % 137
 }
 
 
