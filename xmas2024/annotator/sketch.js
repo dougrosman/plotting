@@ -108,7 +108,7 @@ let images = [];
       if (currentFrame === frameCount - 1) {
         congratsSound.play();
       } else {
-        bgMusic.rate(bgMusic.rate() + 0.02);
+        bgMusic.rate(bgMusic.rate() + 0.01);
       }
 
       updateStats();
