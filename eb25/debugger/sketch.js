@@ -2,9 +2,7 @@ let vid
 let emrysPoses = []
 let dougPoses = []
 let allPersons = []
-let index = 108;
-let globalLowestX = 10000
-let globalLowestY = 10000
+let index = 0;
 const connections = [
     [0, 1],
     [0, 2],
