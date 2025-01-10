@@ -4,6 +4,7 @@ let dougPoses = []
 let allPersons = []
 let index = 0;
 let selectedPoses = [];
+let bDoExportSvg = false;
 const connections = [
     [0, 1],
     [0, 2],
@@ -36,19 +37,28 @@ function preload() {
     })
 }
 
+
+
 function setup() {
     createCanvas(1700, 1100)
-    frameRate(12)
+    // frameRate(12)
 }
 
 function draw() {
     // background(255);
-    //drawConnections(allPersons);
+    if (bDoExportSvg) {
+        // Begin exporting, if requested
+        beginRecordSVG(this, "plotSvg_hello_animating.svg");
+    }
     drawPoses(dougPoses)
     drawPoses(emrysPoses)
-    // textSize(40)
-    // text(`Frame: ${index}`, 50, 50)
-    // index = (frameCount*2) % 137
+    if (bDoExportSvg) {
+        // End exporting, if doing so
+        endRecordSVG();
+        bDoExportSvg = false;
+    }
+
+    
 }
 
 function drawPoses(person) {
@@ -56,7 +66,7 @@ function drawPoses(person) {
     let yStep = 720;
 
 
-    for (let k = 0; k < person.length; k+=4) {
+    for (let k = 0; k < person.length; k += 4) {
 
         //for (pose of person) {
         let pose = person[k]
@@ -76,12 +86,10 @@ function drawPoses(person) {
             endShape()
         }
 
-        strokeWeight(10)
-        beginShape(POINTS)
-        for (kp of pose.keypoints) {
-            vertex(kp.x, kp.y)
-        }
-        endShape()
+        // for (kp of pose.keypoints) {
+        //     noFill();
+        //     circle(kp.x, kp.y, 10)
+        // }
 
         pop();
         xTrans += yStep
@@ -141,12 +149,10 @@ function drawConnections(persons) {
 
 }
 
-function keyPressed() {
-
-    if (keyCode === RIGHT_ARROW && index < 137) {
-        index++
-    } else if (keyCode === LEFT_ARROW && index > 0) {
-        index--;
+function keyPressed(){
+    if (key == 's'){
+      // Initiate SVG exporting
+      bDoExportSvg = true; 
     }
-}
+  }
 
