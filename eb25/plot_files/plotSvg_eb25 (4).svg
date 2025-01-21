@@ -1,0 +1,2189 @@
+<!-- plotSvg_eb25.svg -->
+<!-- Generated using p5.plotSvg: -->
+<!-- A Plotter-Oriented SVG Exporter for p5.js -->
+<!-- Tue Jan 21 2025 11:11:46 GMT-0600 (Central Standard Time) -->
+<!-- DPI: 96 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1632 1056">
+  <style>
+      circle, ellipse, line, path, polygon, polyline, rect, quad, text {
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+<g vector-effect="non-scaling-stroke">
+  <line x1="0" y1="528" x2="1632" y2="528"/>
+  <g>
+    <g transform="translate(0, -50)">
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 0)">
+            <circle cx="463" cy="650" r="6" style="stroke:#c87800;"/>
+            <circle cx="466" cy="641" r="6" style="stroke:#c87800;"/>
+            <circle cx="457" cy="636" r="6" style="stroke:#c87800;"/>
+            <circle cx="451" cy="641" r="6" style="stroke:#c87800;"/>
+            <circle cx="425" cy="641" r="6" style="stroke:#c87800;"/>
+            <circle cx="479" cy="716" r="6" style="stroke:#c87800;"/>
+            <circle cx="375" cy="680" r="6" style="stroke:#c87800;"/>
+            <circle cx="508" cy="769" r="6" style="stroke:#c87800;"/>
+            <circle cx="404" cy="739" r="6" style="stroke:#c87800;"/>
+            <circle cx="562" cy="812" r="6" style="stroke:#c87800;"/>
+            <circle cx="488" cy="764" r="6" style="stroke:#c87800;"/>
+            <circle cx="437" cy="873" r="6" style="stroke:#c87800;"/>
+            <circle cx="342" cy="858" r="6" style="stroke:#c87800;"/>
+            <circle cx="463" cy="967" r="6" style="stroke:#c87800;"/>
+            <circle cx="301" cy="958" r="6" style="stroke:#c87800;"/>
+            <circle cx="451" cy="1114" r="6" style="stroke:#c87800;"/>
+            <circle cx="250" cy="1101" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 0)">
+            <circle cx="487" cy="658.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="491" cy="648.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="483" cy="641.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="475" cy="648.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="449" cy="647.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="501" cy="723.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="409" cy="679.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="547" cy="760.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="457" cy="713.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="617" cy="790.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="545" cy="727.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="449" cy="872.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="342" cy="848.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="474" cy="973.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="306" cy="960.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="451" cy="1126.5556" r="6" style="stroke:#c87800;"/>
+            <circle cx="243" cy="1111.5556" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 0)">
+            <circle cx="483" cy="666" r="6" style="stroke:#c87800;"/>
+            <circle cx="483" cy="658" r="6" style="stroke:#c87800;"/>
+            <circle cx="477" cy="655" r="6" style="stroke:#c87800;"/>
+            <circle cx="455" cy="658" r="6" style="stroke:#c87800;"/>
+            <circle cx="443" cy="657" r="6" style="stroke:#c87800;"/>
+            <circle cx="472" cy="725" r="6" style="stroke:#c87800;"/>
+            <circle cx="403" cy="680" r="6" style="stroke:#c87800;"/>
+            <circle cx="507" cy="790" r="6" style="stroke:#c87800;"/>
+            <circle cx="412" cy="706" r="6" style="stroke:#c87800;"/>
+            <circle cx="573" cy="832" r="6" style="stroke:#c87800;"/>
+            <circle cx="494" cy="750" r="6" style="stroke:#c87800;"/>
+            <circle cx="441" cy="885" r="6" style="stroke:#c87800;"/>
+            <circle cx="330" cy="860" r="6" style="stroke:#c87800;"/>
+            <circle cx="473" cy="970" r="6" style="stroke:#c87800;"/>
+            <circle cx="277" cy="958" r="6" style="stroke:#c87800;"/>
+            <circle cx="453" cy="1116" r="6" style="stroke:#c87800;"/>
+            <circle cx="224" cy="1106" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 0)">
+            <circle cx="486" cy="683" r="6" style="stroke:#c87800;"/>
+            <circle cx="482" cy="680" r="6" style="stroke:#c87800;"/>
+            <circle cx="480" cy="676" r="6" style="stroke:#c87800;"/>
+            <circle cx="454" cy="680" r="6" style="stroke:#c87800;"/>
+            <circle cx="446" cy="672" r="6" style="stroke:#c87800;"/>
+            <circle cx="478" cy="742" r="6" style="stroke:#c87800;"/>
+            <circle cx="398" cy="687" r="6" style="stroke:#c87800;"/>
+            <circle cx="491" cy="806" r="6" style="stroke:#c87800;"/>
+            <circle cx="391" cy="701" r="6" style="stroke:#c87800;"/>
+            <circle cx="518" cy="878" r="6" style="stroke:#c87800;"/>
+            <circle cx="448" cy="772" r="6" style="stroke:#c87800;"/>
+            <circle cx="415" cy="877" r="6" style="stroke:#c87800;"/>
+            <circle cx="315" cy="865" r="6" style="stroke:#c87800;"/>
+            <circle cx="472" cy="960" r="6" style="stroke:#c87800;"/>
+            <circle cx="255" cy="957" r="6" style="stroke:#c87800;"/>
+            <circle cx="467" cy="1116" r="6" style="stroke:#c87800;"/>
+            <circle cx="216" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 0)">
+            <circle cx="475" cy="696" r="6" style="stroke:#c87800;"/>
+            <circle cx="473" cy="694" r="6" style="stroke:#c87800;"/>
+            <circle cx="468" cy="689" r="6" style="stroke:#c87800;"/>
+            <circle cx="445" cy="697" r="6" style="stroke:#c87800;"/>
+            <circle cx="435" cy="688" r="6" style="stroke:#c87800;"/>
+            <circle cx="451" cy="769" r="6" style="stroke:#c87800;"/>
+            <circle cx="387" cy="711" r="6" style="stroke:#c87800;"/>
+            <circle cx="463" cy="819" r="6" style="stroke:#c87800;"/>
+            <circle cx="349" cy="745" r="6" style="stroke:#c87800;"/>
+            <circle cx="469" cy="868" r="6" style="stroke:#c87800;"/>
+            <circle cx="386" cy="834" r="6" style="stroke:#c87800;"/>
+            <circle cx="414" cy="895" r="6" style="stroke:#c87800;"/>
+            <circle cx="303" cy="873" r="6" style="stroke:#c87800;"/>
+            <circle cx="468" cy="970" r="6" style="stroke:#c87800;"/>
+            <circle cx="236" cy="964" r="6" style="stroke:#c87800;"/>
+            <circle cx="457" cy="1117" r="6" style="stroke:#c87800;"/>
+            <circle cx="210" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 0)">
+            <circle cx="429" cy="689" r="6" style="stroke:#c87800;"/>
+            <circle cx="425" cy="684" r="6" style="stroke:#c87800;"/>
+            <circle cx="418" cy="679" r="6" style="stroke:#c87800;"/>
+            <circle cx="397" cy="691" r="6" style="stroke:#c87800;"/>
+            <circle cx="385" cy="684" r="6" style="stroke:#c87800;"/>
+            <circle cx="420" cy="753" r="6" style="stroke:#c87800;"/>
+            <circle cx="346" cy="725" r="6" style="stroke:#c87800;"/>
+            <circle cx="450" cy="801" r="6" style="stroke:#c87800;"/>
+            <circle cx="319" cy="784" r="6" style="stroke:#c87800;"/>
+            <circle cx="449" cy="846" r="6" style="stroke:#c87800;"/>
+            <circle cx="362" cy="876" r="6" style="stroke:#c87800;"/>
+            <circle cx="411" cy="898" r="6" style="stroke:#c87800;"/>
+            <circle cx="298" cy="887" r="6" style="stroke:#c87800;"/>
+            <circle cx="458" cy="970" r="6" style="stroke:#c87800;"/>
+            <circle cx="215" cy="959" r="6" style="stroke:#c87800;"/>
+            <circle cx="452" cy="1118" r="6" style="stroke:#c87800;"/>
+            <circle cx="204" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 0)">
+            <circle cx="391" cy="693" r="6" style="stroke:#c87800;"/>
+            <circle cx="391" cy="682" r="6" style="stroke:#c87800;"/>
+            <circle cx="387" cy="683" r="6" style="stroke:#c87800;"/>
+            <circle cx="371" cy="691" r="6" style="stroke:#c87800;"/>
+            <circle cx="363" cy="685" r="6" style="stroke:#c87800;"/>
+            <circle cx="412" cy="733" r="6" style="stroke:#c87800;"/>
+            <circle cx="326" cy="713" r="6" style="stroke:#c87800;"/>
+            <circle cx="456" cy="790" r="6" style="stroke:#c87800;"/>
+            <circle cx="334" cy="761" r="6" style="stroke:#c87800;"/>
+            <circle cx="428" cy="760" r="6" style="stroke:#c87800;"/>
+            <circle cx="397" cy="817" r="6" style="stroke:#c87800;"/>
+            <circle cx="411" cy="887" r="6" style="stroke:#c87800;"/>
+            <circle cx="304" cy="876" r="6" style="stroke:#c87800;"/>
+            <circle cx="468" cy="969" r="6" style="stroke:#c87800;"/>
+            <circle cx="249" cy="961" r="6" style="stroke:#c87800;"/>
+            <circle cx="460" cy="1116" r="6" style="stroke:#c87800;"/>
+            <circle cx="212" cy="1109" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 1600)">
+            <circle cx="361" cy="661" r="6" style="stroke:#c87800;"/>
+            <circle cx="352" cy="652" r="6" style="stroke:#c87800;"/>
+            <circle cx="347" cy="650" r="6" style="stroke:#c87800;"/>
+            <circle cx="323" cy="665" r="6" style="stroke:#c87800;"/>
+            <circle cx="312" cy="660" r="6" style="stroke:#c87800;"/>
+            <circle cx="378" cy="710" r="6" style="stroke:#c87800;"/>
+            <circle cx="297" cy="734" r="6" style="stroke:#c87800;"/>
+            <circle cx="450" cy="734" r="6" style="stroke:#c87800;"/>
+            <circle cx="324" cy="783" r="6" style="stroke:#c87800;"/>
+            <circle cx="412" cy="748" r="6" style="stroke:#c87800;"/>
+            <circle cx="414" cy="791" r="6" style="stroke:#c87800;"/>
+            <circle cx="433" cy="875" r="6" style="stroke:#c87800;"/>
+            <circle cx="329" cy="870" r="6" style="stroke:#c87800;"/>
+            <circle cx="477" cy="968" r="6" style="stroke:#c87800;"/>
+            <circle cx="288" cy="958" r="6" style="stroke:#c87800;"/>
+            <circle cx="461" cy="1118" r="6" style="stroke:#c87800;"/>
+            <circle cx="217" cy="1107" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 1600)">
+            <circle cx="329" cy="653" r="6" style="stroke:#c87800;"/>
+            <circle cx="330" cy="647" r="6" style="stroke:#c87800;"/>
+            <circle cx="322" cy="647" r="6" style="stroke:#c87800;"/>
+            <circle cx="307" cy="664" r="6" style="stroke:#c87800;"/>
+            <circle cx="288" cy="669" r="6" style="stroke:#c87800;"/>
+            <circle cx="364" cy="684" r="6" style="stroke:#c87800;"/>
+            <circle cx="298" cy="738" r="6" style="stroke:#c87800;"/>
+            <circle cx="427" cy="690" r="6" style="stroke:#c87800;"/>
+            <circle cx="331" cy="811" r="6" style="stroke:#c87800;"/>
+            <circle cx="388" cy="725" r="6" style="stroke:#c87800;"/>
+            <circle cx="406" cy="782" r="6" style="stroke:#c87800;"/>
+            <circle cx="428" cy="869" r="6" style="stroke:#c87800;"/>
+            <circle cx="329" cy="859" r="6" style="stroke:#c87800;"/>
+            <circle cx="452" cy="973" r="6" style="stroke:#c87800;"/>
+            <circle cx="289" cy="962" r="6" style="stroke:#c87800;"/>
+            <circle cx="457" cy="1112" r="6" style="stroke:#c87800;"/>
+            <circle cx="220" cy="1108" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 1600)">
+            <circle cx="315" cy="658" r="6" style="stroke:#c87800;"/>
+            <circle cx="312" cy="652" r="6" style="stroke:#c87800;"/>
+            <circle cx="300" cy="655" r="6" style="stroke:#c87800;"/>
+            <circle cx="290" cy="669" r="6" style="stroke:#c87800;"/>
+            <circle cx="277" cy="667" r="6" style="stroke:#c87800;"/>
+            <circle cx="356" cy="688" r="6" style="stroke:#c87800;"/>
+            <circle cx="302" cy="750" r="6" style="stroke:#c87800;"/>
+            <circle cx="412" cy="692" r="6" style="stroke:#c87800;"/>
+            <circle cx="333" cy="819" r="6" style="stroke:#c87800;"/>
+            <circle cx="369" cy="729" r="6" style="stroke:#c87800;"/>
+            <circle cx="400" cy="792" r="6" style="stroke:#c87800;"/>
+            <circle cx="423" cy="863" r="6" style="stroke:#c87800;"/>
+            <circle cx="322" cy="861" r="6" style="stroke:#c87800;"/>
+            <circle cx="445" cy="962" r="6" style="stroke:#c87800;"/>
+            <circle cx="284" cy="956" r="6" style="stroke:#c87800;"/>
+            <circle cx="454" cy="1115" r="6" style="stroke:#c87800;"/>
+            <circle cx="221" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 1600)">
+            <circle cx="259" cy="679" r="6" style="stroke:#c87800;"/>
+            <circle cx="261" cy="674" r="6" style="stroke:#c87800;"/>
+            <circle cx="247" cy="684" r="6" style="stroke:#c87800;"/>
+            <circle cx="266" cy="685" r="6" style="stroke:#c87800;"/>
+            <circle cx="237" cy="710" r="6" style="stroke:#c87800;"/>
+            <circle cx="309" cy="689" r="6" style="stroke:#c87800;"/>
+            <circle cx="256" cy="763" r="6" style="stroke:#c87800;"/>
+            <circle cx="351" cy="689" r="6" style="stroke:#c87800;"/>
+            <circle cx="312" cy="837" r="6" style="stroke:#c87800;"/>
+            <circle cx="322" cy="750" r="6" style="stroke:#c87800;"/>
+            <circle cx="357" cy="814" r="6" style="stroke:#c87800;"/>
+            <circle cx="404" cy="846" r="6" style="stroke:#c87800;"/>
+            <circle cx="314" cy="868" r="6" style="stroke:#c87800;"/>
+            <circle cx="434" cy="964" r="6" style="stroke:#c87800;"/>
+            <circle cx="266" cy="976" r="6" style="stroke:#c87800;"/>
+            <circle cx="459" cy="1110" r="6" style="stroke:#c87800;"/>
+            <circle cx="221" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 1600)">
+            <circle cx="181" cy="712" r="6" style="stroke:#c87800;"/>
+            <circle cx="179" cy="704" r="6" style="stroke:#c87800;"/>
+            <circle cx="168" cy="718" r="6" style="stroke:#c87800;"/>
+            <circle cx="203" cy="703" r="6" style="stroke:#c87800;"/>
+            <circle cx="175" cy="741" r="6" style="stroke:#c87800;"/>
+            <circle cx="235" cy="708" r="6" style="stroke:#c87800;"/>
+            <circle cx="200" cy="780" r="6" style="stroke:#c87800;"/>
+            <circle cx="231" cy="680" r="6" style="stroke:#c87800;"/>
+            <circle cx="276" cy="812" r="6" style="stroke:#c87800;"/>
+            <circle cx="213" cy="752" r="6" style="stroke:#c87800;"/>
+            <circle cx="313" cy="765" r="6" style="stroke:#c87800;"/>
+            <circle cx="382" cy="823" r="6" style="stroke:#c87800;"/>
+            <circle cx="286" cy="863" r="6" style="stroke:#c87800;"/>
+            <circle cx="421" cy="957" r="6" style="stroke:#c87800;"/>
+            <circle cx="248" cy="957" r="6" style="stroke:#c87800;"/>
+            <circle cx="456" cy="1105" r="6" style="stroke:#c87800;"/>
+            <circle cx="215" cy="1105" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 1600)">
+            <circle cx="293" cy="671" r="6" style="stroke:#c87800;"/>
+            <circle cx="301" cy="664" r="6" style="stroke:#c87800;"/>
+            <circle cx="285" cy="668" r="6" style="stroke:#c87800;"/>
+            <circle cx="319" cy="672" r="6" style="stroke:#c87800;"/>
+            <circle cx="287" cy="678" r="6" style="stroke:#c87800;"/>
+            <circle cx="349" cy="681" r="6" style="stroke:#c87800;"/>
+            <circle cx="288" cy="738" r="6" style="stroke:#c87800;"/>
+            <circle cx="296" cy="713" r="6" style="stroke:#c87800;"/>
+            <circle cx="283" cy="777" r="6" style="stroke:#c87800;"/>
+            <circle cx="206" cy="730" r="6" style="stroke:#c87800;"/>
+            <circle cx="307" cy="764" r="6" style="stroke:#c87800;"/>
+            <circle cx="387" cy="845" r="6" style="stroke:#c87800;"/>
+            <circle cx="296" cy="867" r="6" style="stroke:#c87800;"/>
+            <circle cx="403" cy="972" r="6" style="stroke:#c87800;"/>
+            <circle cx="249" cy="969" r="6" style="stroke:#c87800;"/>
+            <circle cx="416" cy="1107" r="6" style="stroke:#c87800;"/>
+            <circle cx="219" cy="1093" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 1600)">
+            <circle cx="370" cy="654" r="6" style="stroke:#c87800;"/>
+            <circle cx="378" cy="647" r="6" style="stroke:#c87800;"/>
+            <circle cx="366" cy="651" r="6" style="stroke:#c87800;"/>
+            <circle cx="407" cy="654" r="6" style="stroke:#c87800;"/>
+            <circle cx="387" cy="655" r="6" style="stroke:#c87800;"/>
+            <circle cx="446" cy="696" r="6" style="stroke:#c87800;"/>
+            <circle cx="351" cy="719" r="6" style="stroke:#c87800;"/>
+            <circle cx="439" cy="717" r="6" style="stroke:#c87800;"/>
+            <circle cx="335" cy="765" r="6" style="stroke:#c87800;"/>
+            <circle cx="361" cy="703" r="6" style="stroke:#c87800;"/>
+            <circle cx="314" cy="801" r="6" style="stroke:#c87800;"/>
+            <circle cx="429" cy="847" r="6" style="stroke:#c87800;"/>
+            <circle cx="332" cy="855" r="6" style="stroke:#c87800;"/>
+            <circle cx="422" cy="975" r="6" style="stroke:#c87800;"/>
+            <circle cx="284" cy="973" r="6" style="stroke:#c87800;"/>
+            <circle cx="422" cy="1109" r="6" style="stroke:#c87800;"/>
+            <circle cx="256" cy="1093" r="6" style="stroke:#c87800;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <circle cx="480" cy="70" r="20" style="stroke:#6400ff;"/>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 0)">
+            <g id="LINES_0" style="stroke:#c87800;">
+              <line x1="463" y1="650" x2="466" y2="641"/>
+            </g>
+            <g id="LINES_1" style="stroke:#c87800;">
+              <line x1="463" y1="650" x2="457" y2="636"/>
+            </g>
+            <g id="LINES_2" style="stroke:#c87800;">
+              <line x1="466" y1="641" x2="451" y2="641"/>
+            </g>
+            <g id="LINES_3" style="stroke:#c87800;">
+              <line x1="457" y1="636" x2="425" y2="641"/>
+            </g>
+            <g id="LINES_4" style="stroke:#c87800;">
+              <line x1="479" y1="716" x2="375" y2="680"/>
+            </g>
+            <g id="LINES_5" style="stroke:#c87800;">
+              <line x1="479" y1="716" x2="508" y2="769"/>
+            </g>
+            <g id="LINES_6" style="stroke:#c87800;">
+              <line x1="479" y1="716" x2="437" y2="873"/>
+            </g>
+            <g id="LINES_7" style="stroke:#c87800;">
+              <line x1="375" y1="680" x2="404" y2="739"/>
+            </g>
+            <g id="LINES_8" style="stroke:#c87800;">
+              <line x1="375" y1="680" x2="342" y2="858"/>
+            </g>
+            <g id="LINES_9" style="stroke:#c87800;">
+              <line x1="508" y1="769" x2="562" y2="812"/>
+            </g>
+            <g id="LINES_10" style="stroke:#c87800;">
+              <line x1="404" y1="739" x2="488" y2="764"/>
+            </g>
+            <g id="LINES_11" style="stroke:#c87800;">
+              <line x1="437" y1="873" x2="342" y2="858"/>
+            </g>
+            <g id="LINES_12" style="stroke:#c87800;">
+              <line x1="437" y1="873" x2="463" y2="967"/>
+            </g>
+            <g id="LINES_13" style="stroke:#c87800;">
+              <line x1="342" y1="858" x2="301" y2="958"/>
+            </g>
+            <g id="LINES_14" style="stroke:#c87800;">
+              <line x1="463" y1="967" x2="451" y2="1114"/>
+            </g>
+            <g id="LINES_15" style="stroke:#c87800;">
+              <line x1="301" y1="958" x2="250" y2="1101"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 0)">
+            <g id="LINES_16" style="stroke:#c87800;">
+              <line x1="487" y1="658.5556" x2="491" y2="648.5556"/>
+            </g>
+            <g id="LINES_17" style="stroke:#c87800;">
+              <line x1="487" y1="658.5556" x2="483" y2="641.5556"/>
+            </g>
+            <g id="LINES_18" style="stroke:#c87800;">
+              <line x1="491" y1="648.5556" x2="475" y2="648.5556"/>
+            </g>
+            <g id="LINES_19" style="stroke:#c87800;">
+              <line x1="483" y1="641.5556" x2="449" y2="647.5556"/>
+            </g>
+            <g id="LINES_20" style="stroke:#c87800;">
+              <line x1="501" y1="723.5556" x2="409" y2="679.5556"/>
+            </g>
+            <g id="LINES_21" style="stroke:#c87800;">
+              <line x1="501" y1="723.5556" x2="547" y2="760.5556"/>
+            </g>
+            <g id="LINES_22" style="stroke:#c87800;">
+              <line x1="501" y1="723.5556" x2="449" y2="872.5556"/>
+            </g>
+            <g id="LINES_23" style="stroke:#c87800;">
+              <line x1="409" y1="679.5556" x2="457" y2="713.5556"/>
+            </g>
+            <g id="LINES_24" style="stroke:#c87800;">
+              <line x1="409" y1="679.5556" x2="342" y2="848.5556"/>
+            </g>
+            <g id="LINES_25" style="stroke:#c87800;">
+              <line x1="547" y1="760.5556" x2="617" y2="790.5556"/>
+            </g>
+            <g id="LINES_26" style="stroke:#c87800;">
+              <line x1="457" y1="713.5556" x2="545" y2="727.5556"/>
+            </g>
+            <g id="LINES_27" style="stroke:#c87800;">
+              <line x1="449" y1="872.5556" x2="342" y2="848.5556"/>
+            </g>
+            <g id="LINES_28" style="stroke:#c87800;">
+              <line x1="449" y1="872.5556" x2="474" y2="973.5556"/>
+            </g>
+            <g id="LINES_29" style="stroke:#c87800;">
+              <line x1="342" y1="848.5556" x2="306" y2="960.5556"/>
+            </g>
+            <g id="LINES_30" style="stroke:#c87800;">
+              <line x1="474" y1="973.5556" x2="451" y2="1126.5556"/>
+            </g>
+            <g id="LINES_31" style="stroke:#c87800;">
+              <line x1="306" y1="960.5556" x2="243" y2="1111.5556"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 0)">
+            <g id="LINES_32" style="stroke:#c87800;">
+              <line x1="483" y1="666" x2="483" y2="658"/>
+            </g>
+            <g id="LINES_33" style="stroke:#c87800;">
+              <line x1="483" y1="666" x2="477" y2="655"/>
+            </g>
+            <g id="LINES_34" style="stroke:#c87800;">
+              <line x1="483" y1="658" x2="455" y2="658"/>
+            </g>
+            <g id="LINES_35" style="stroke:#c87800;">
+              <line x1="477" y1="655" x2="443" y2="657"/>
+            </g>
+            <g id="LINES_36" style="stroke:#c87800;">
+              <line x1="472" y1="725" x2="403" y2="680"/>
+            </g>
+            <g id="LINES_37" style="stroke:#c87800;">
+              <line x1="472" y1="725" x2="507" y2="790"/>
+            </g>
+            <g id="LINES_38" style="stroke:#c87800;">
+              <line x1="472" y1="725" x2="441" y2="885"/>
+            </g>
+            <g id="LINES_39" style="stroke:#c87800;">
+              <line x1="403" y1="680" x2="412" y2="706"/>
+            </g>
+            <g id="LINES_40" style="stroke:#c87800;">
+              <line x1="403" y1="680" x2="330" y2="860"/>
+            </g>
+            <g id="LINES_41" style="stroke:#c87800;">
+              <line x1="507" y1="790" x2="573" y2="832"/>
+            </g>
+            <g id="LINES_42" style="stroke:#c87800;">
+              <line x1="412" y1="706" x2="494" y2="750"/>
+            </g>
+            <g id="LINES_43" style="stroke:#c87800;">
+              <line x1="441" y1="885" x2="330" y2="860"/>
+            </g>
+            <g id="LINES_44" style="stroke:#c87800;">
+              <line x1="441" y1="885" x2="473" y2="970"/>
+            </g>
+            <g id="LINES_45" style="stroke:#c87800;">
+              <line x1="330" y1="860" x2="277" y2="958"/>
+            </g>
+            <g id="LINES_46" style="stroke:#c87800;">
+              <line x1="473" y1="970" x2="453" y2="1116"/>
+            </g>
+            <g id="LINES_47" style="stroke:#c87800;">
+              <line x1="277" y1="958" x2="224" y2="1106"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 0)">
+            <g id="LINES_48" style="stroke:#c87800;">
+              <line x1="486" y1="683" x2="482" y2="680"/>
+            </g>
+            <g id="LINES_49" style="stroke:#c87800;">
+              <line x1="486" y1="683" x2="480" y2="676"/>
+            </g>
+            <g id="LINES_50" style="stroke:#c87800;">
+              <line x1="482" y1="680" x2="454" y2="680"/>
+            </g>
+            <g id="LINES_51" style="stroke:#c87800;">
+              <line x1="480" y1="676" x2="446" y2="672"/>
+            </g>
+            <g id="LINES_52" style="stroke:#c87800;">
+              <line x1="478" y1="742" x2="398" y2="687"/>
+            </g>
+            <g id="LINES_53" style="stroke:#c87800;">
+              <line x1="478" y1="742" x2="491" y2="806"/>
+            </g>
+            <g id="LINES_54" style="stroke:#c87800;">
+              <line x1="478" y1="742" x2="415" y2="877"/>
+            </g>
+            <g id="LINES_55" style="stroke:#c87800;">
+              <line x1="398" y1="687" x2="391" y2="701"/>
+            </g>
+            <g id="LINES_56" style="stroke:#c87800;">
+              <line x1="398" y1="687" x2="315" y2="865"/>
+            </g>
+            <g id="LINES_57" style="stroke:#c87800;">
+              <line x1="491" y1="806" x2="518" y2="878"/>
+            </g>
+            <g id="LINES_58" style="stroke:#c87800;">
+              <line x1="391" y1="701" x2="448" y2="772"/>
+            </g>
+            <g id="LINES_59" style="stroke:#c87800;">
+              <line x1="415" y1="877" x2="315" y2="865"/>
+            </g>
+            <g id="LINES_60" style="stroke:#c87800;">
+              <line x1="415" y1="877" x2="472" y2="960"/>
+            </g>
+            <g id="LINES_61" style="stroke:#c87800;">
+              <line x1="315" y1="865" x2="255" y2="957"/>
+            </g>
+            <g id="LINES_62" style="stroke:#c87800;">
+              <line x1="472" y1="960" x2="467" y2="1116"/>
+            </g>
+            <g id="LINES_63" style="stroke:#c87800;">
+              <line x1="255" y1="957" x2="216" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 0)">
+            <g id="LINES_64" style="stroke:#c87800;">
+              <line x1="475" y1="696" x2="473" y2="694"/>
+            </g>
+            <g id="LINES_65" style="stroke:#c87800;">
+              <line x1="475" y1="696" x2="468" y2="689"/>
+            </g>
+            <g id="LINES_66" style="stroke:#c87800;">
+              <line x1="473" y1="694" x2="445" y2="697"/>
+            </g>
+            <g id="LINES_67" style="stroke:#c87800;">
+              <line x1="468" y1="689" x2="435" y2="688"/>
+            </g>
+            <g id="LINES_68" style="stroke:#c87800;">
+              <line x1="451" y1="769" x2="387" y2="711"/>
+            </g>
+            <g id="LINES_69" style="stroke:#c87800;">
+              <line x1="451" y1="769" x2="463" y2="819"/>
+            </g>
+            <g id="LINES_70" style="stroke:#c87800;">
+              <line x1="451" y1="769" x2="414" y2="895"/>
+            </g>
+            <g id="LINES_71" style="stroke:#c87800;">
+              <line x1="387" y1="711" x2="349" y2="745"/>
+            </g>
+            <g id="LINES_72" style="stroke:#c87800;">
+              <line x1="387" y1="711" x2="303" y2="873"/>
+            </g>
+            <g id="LINES_73" style="stroke:#c87800;">
+              <line x1="463" y1="819" x2="469" y2="868"/>
+            </g>
+            <g id="LINES_74" style="stroke:#c87800;">
+              <line x1="349" y1="745" x2="386" y2="834"/>
+            </g>
+            <g id="LINES_75" style="stroke:#c87800;">
+              <line x1="414" y1="895" x2="303" y2="873"/>
+            </g>
+            <g id="LINES_76" style="stroke:#c87800;">
+              <line x1="414" y1="895" x2="468" y2="970"/>
+            </g>
+            <g id="LINES_77" style="stroke:#c87800;">
+              <line x1="303" y1="873" x2="236" y2="964"/>
+            </g>
+            <g id="LINES_78" style="stroke:#c87800;">
+              <line x1="468" y1="970" x2="457" y2="1117"/>
+            </g>
+            <g id="LINES_79" style="stroke:#c87800;">
+              <line x1="236" y1="964" x2="210" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 0)">
+            <g id="LINES_80" style="stroke:#c87800;">
+              <line x1="429" y1="689" x2="425" y2="684"/>
+            </g>
+            <g id="LINES_81" style="stroke:#c87800;">
+              <line x1="429" y1="689" x2="418" y2="679"/>
+            </g>
+            <g id="LINES_82" style="stroke:#c87800;">
+              <line x1="425" y1="684" x2="397" y2="691"/>
+            </g>
+            <g id="LINES_83" style="stroke:#c87800;">
+              <line x1="418" y1="679" x2="385" y2="684"/>
+            </g>
+            <g id="LINES_84" style="stroke:#c87800;">
+              <line x1="420" y1="753" x2="346" y2="725"/>
+            </g>
+            <g id="LINES_85" style="stroke:#c87800;">
+              <line x1="420" y1="753" x2="450" y2="801"/>
+            </g>
+            <g id="LINES_86" style="stroke:#c87800;">
+              <line x1="420" y1="753" x2="411" y2="898"/>
+            </g>
+            <g id="LINES_87" style="stroke:#c87800;">
+              <line x1="346" y1="725" x2="319" y2="784"/>
+            </g>
+            <g id="LINES_88" style="stroke:#c87800;">
+              <line x1="346" y1="725" x2="298" y2="887"/>
+            </g>
+            <g id="LINES_89" style="stroke:#c87800;">
+              <line x1="450" y1="801" x2="449" y2="846"/>
+            </g>
+            <g id="LINES_90" style="stroke:#c87800;">
+              <line x1="319" y1="784" x2="362" y2="876"/>
+            </g>
+            <g id="LINES_91" style="stroke:#c87800;">
+              <line x1="411" y1="898" x2="298" y2="887"/>
+            </g>
+            <g id="LINES_92" style="stroke:#c87800;">
+              <line x1="411" y1="898" x2="458" y2="970"/>
+            </g>
+            <g id="LINES_93" style="stroke:#c87800;">
+              <line x1="298" y1="887" x2="215" y2="959"/>
+            </g>
+            <g id="LINES_94" style="stroke:#c87800;">
+              <line x1="458" y1="970" x2="452" y2="1118"/>
+            </g>
+            <g id="LINES_95" style="stroke:#c87800;">
+              <line x1="215" y1="959" x2="204" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 0)">
+            <g id="LINES_96" style="stroke:#c87800;">
+              <line x1="391" y1="693" x2="391" y2="682"/>
+            </g>
+            <g id="LINES_97" style="stroke:#c87800;">
+              <line x1="391" y1="693" x2="387" y2="683"/>
+            </g>
+            <g id="LINES_98" style="stroke:#c87800;">
+              <line x1="391" y1="682" x2="371" y2="691"/>
+            </g>
+            <g id="LINES_99" style="stroke:#c87800;">
+              <line x1="387" y1="683" x2="363" y2="685"/>
+            </g>
+            <g id="LINES_100" style="stroke:#c87800;">
+              <line x1="412" y1="733" x2="326" y2="713"/>
+            </g>
+            <g id="LINES_101" style="stroke:#c87800;">
+              <line x1="412" y1="733" x2="456" y2="790"/>
+            </g>
+            <g id="LINES_102" style="stroke:#c87800;">
+              <line x1="412" y1="733" x2="411" y2="887"/>
+            </g>
+            <g id="LINES_103" style="stroke:#c87800;">
+              <line x1="326" y1="713" x2="334" y2="761"/>
+            </g>
+            <g id="LINES_104" style="stroke:#c87800;">
+              <line x1="326" y1="713" x2="304" y2="876"/>
+            </g>
+            <g id="LINES_105" style="stroke:#c87800;">
+              <line x1="456" y1="790" x2="428" y2="760"/>
+            </g>
+            <g id="LINES_106" style="stroke:#c87800;">
+              <line x1="334" y1="761" x2="397" y2="817"/>
+            </g>
+            <g id="LINES_107" style="stroke:#c87800;">
+              <line x1="411" y1="887" x2="304" y2="876"/>
+            </g>
+            <g id="LINES_108" style="stroke:#c87800;">
+              <line x1="411" y1="887" x2="468" y2="969"/>
+            </g>
+            <g id="LINES_109" style="stroke:#c87800;">
+              <line x1="304" y1="876" x2="249" y2="961"/>
+            </g>
+            <g id="LINES_110" style="stroke:#c87800;">
+              <line x1="468" y1="969" x2="460" y2="1116"/>
+            </g>
+            <g id="LINES_111" style="stroke:#c87800;">
+              <line x1="249" y1="961" x2="212" y2="1109"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 1600)">
+            <g id="LINES_112" style="stroke:#c87800;">
+              <line x1="361" y1="661" x2="352" y2="652"/>
+            </g>
+            <g id="LINES_113" style="stroke:#c87800;">
+              <line x1="361" y1="661" x2="347" y2="650"/>
+            </g>
+            <g id="LINES_114" style="stroke:#c87800;">
+              <line x1="352" y1="652" x2="323" y2="665"/>
+            </g>
+            <g id="LINES_115" style="stroke:#c87800;">
+              <line x1="347" y1="650" x2="312" y2="660"/>
+            </g>
+            <g id="LINES_116" style="stroke:#c87800;">
+              <line x1="378" y1="710" x2="297" y2="734"/>
+            </g>
+            <g id="LINES_117" style="stroke:#c87800;">
+              <line x1="378" y1="710" x2="450" y2="734"/>
+            </g>
+            <g id="LINES_118" style="stroke:#c87800;">
+              <line x1="378" y1="710" x2="433" y2="875"/>
+            </g>
+            <g id="LINES_119" style="stroke:#c87800;">
+              <line x1="297" y1="734" x2="324" y2="783"/>
+            </g>
+            <g id="LINES_120" style="stroke:#c87800;">
+              <line x1="297" y1="734" x2="329" y2="870"/>
+            </g>
+            <g id="LINES_121" style="stroke:#c87800;">
+              <line x1="450" y1="734" x2="412" y2="748"/>
+            </g>
+            <g id="LINES_122" style="stroke:#c87800;">
+              <line x1="324" y1="783" x2="414" y2="791"/>
+            </g>
+            <g id="LINES_123" style="stroke:#c87800;">
+              <line x1="433" y1="875" x2="329" y2="870"/>
+            </g>
+            <g id="LINES_124" style="stroke:#c87800;">
+              <line x1="433" y1="875" x2="477" y2="968"/>
+            </g>
+            <g id="LINES_125" style="stroke:#c87800;">
+              <line x1="329" y1="870" x2="288" y2="958"/>
+            </g>
+            <g id="LINES_126" style="stroke:#c87800;">
+              <line x1="477" y1="968" x2="461" y2="1118"/>
+            </g>
+            <g id="LINES_127" style="stroke:#c87800;">
+              <line x1="288" y1="958" x2="217" y2="1107"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 1600)">
+            <g id="LINES_128" style="stroke:#c87800;">
+              <line x1="329" y1="653" x2="330" y2="647"/>
+            </g>
+            <g id="LINES_129" style="stroke:#c87800;">
+              <line x1="329" y1="653" x2="322" y2="647"/>
+            </g>
+            <g id="LINES_130" style="stroke:#c87800;">
+              <line x1="330" y1="647" x2="307" y2="664"/>
+            </g>
+            <g id="LINES_131" style="stroke:#c87800;">
+              <line x1="322" y1="647" x2="288" y2="669"/>
+            </g>
+            <g id="LINES_132" style="stroke:#c87800;">
+              <line x1="364" y1="684" x2="298" y2="738"/>
+            </g>
+            <g id="LINES_133" style="stroke:#c87800;">
+              <line x1="364" y1="684" x2="427" y2="690"/>
+            </g>
+            <g id="LINES_134" style="stroke:#c87800;">
+              <line x1="364" y1="684" x2="428" y2="869"/>
+            </g>
+            <g id="LINES_135" style="stroke:#c87800;">
+              <line x1="298" y1="738" x2="331" y2="811"/>
+            </g>
+            <g id="LINES_136" style="stroke:#c87800;">
+              <line x1="298" y1="738" x2="329" y2="859"/>
+            </g>
+            <g id="LINES_137" style="stroke:#c87800;">
+              <line x1="427" y1="690" x2="388" y2="725"/>
+            </g>
+            <g id="LINES_138" style="stroke:#c87800;">
+              <line x1="331" y1="811" x2="406" y2="782"/>
+            </g>
+            <g id="LINES_139" style="stroke:#c87800;">
+              <line x1="428" y1="869" x2="329" y2="859"/>
+            </g>
+            <g id="LINES_140" style="stroke:#c87800;">
+              <line x1="428" y1="869" x2="452" y2="973"/>
+            </g>
+            <g id="LINES_141" style="stroke:#c87800;">
+              <line x1="329" y1="859" x2="289" y2="962"/>
+            </g>
+            <g id="LINES_142" style="stroke:#c87800;">
+              <line x1="452" y1="973" x2="457" y2="1112"/>
+            </g>
+            <g id="LINES_143" style="stroke:#c87800;">
+              <line x1="289" y1="962" x2="220" y2="1108"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 1600)">
+            <g id="LINES_144" style="stroke:#c87800;">
+              <line x1="315" y1="658" x2="312" y2="652"/>
+            </g>
+            <g id="LINES_145" style="stroke:#c87800;">
+              <line x1="315" y1="658" x2="300" y2="655"/>
+            </g>
+            <g id="LINES_146" style="stroke:#c87800;">
+              <line x1="312" y1="652" x2="290" y2="669"/>
+            </g>
+            <g id="LINES_147" style="stroke:#c87800;">
+              <line x1="300" y1="655" x2="277" y2="667"/>
+            </g>
+            <g id="LINES_148" style="stroke:#c87800;">
+              <line x1="356" y1="688" x2="302" y2="750"/>
+            </g>
+            <g id="LINES_149" style="stroke:#c87800;">
+              <line x1="356" y1="688" x2="412" y2="692"/>
+            </g>
+            <g id="LINES_150" style="stroke:#c87800;">
+              <line x1="356" y1="688" x2="423" y2="863"/>
+            </g>
+            <g id="LINES_151" style="stroke:#c87800;">
+              <line x1="302" y1="750" x2="333" y2="819"/>
+            </g>
+            <g id="LINES_152" style="stroke:#c87800;">
+              <line x1="302" y1="750" x2="322" y2="861"/>
+            </g>
+            <g id="LINES_153" style="stroke:#c87800;">
+              <line x1="412" y1="692" x2="369" y2="729"/>
+            </g>
+            <g id="LINES_154" style="stroke:#c87800;">
+              <line x1="333" y1="819" x2="400" y2="792"/>
+            </g>
+            <g id="LINES_155" style="stroke:#c87800;">
+              <line x1="423" y1="863" x2="322" y2="861"/>
+            </g>
+            <g id="LINES_156" style="stroke:#c87800;">
+              <line x1="423" y1="863" x2="445" y2="962"/>
+            </g>
+            <g id="LINES_157" style="stroke:#c87800;">
+              <line x1="322" y1="861" x2="284" y2="956"/>
+            </g>
+            <g id="LINES_158" style="stroke:#c87800;">
+              <line x1="445" y1="962" x2="454" y2="1115"/>
+            </g>
+            <g id="LINES_159" style="stroke:#c87800;">
+              <line x1="284" y1="956" x2="221" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 1600)">
+            <g id="LINES_160" style="stroke:#c87800;">
+              <line x1="259" y1="679" x2="261" y2="674"/>
+            </g>
+            <g id="LINES_161" style="stroke:#c87800;">
+              <line x1="259" y1="679" x2="247" y2="684"/>
+            </g>
+            <g id="LINES_162" style="stroke:#c87800;">
+              <line x1="261" y1="674" x2="266" y2="685"/>
+            </g>
+            <g id="LINES_163" style="stroke:#c87800;">
+              <line x1="247" y1="684" x2="237" y2="710"/>
+            </g>
+            <g id="LINES_164" style="stroke:#c87800;">
+              <line x1="309" y1="689" x2="256" y2="763"/>
+            </g>
+            <g id="LINES_165" style="stroke:#c87800;">
+              <line x1="309" y1="689" x2="351" y2="689"/>
+            </g>
+            <g id="LINES_166" style="stroke:#c87800;">
+              <line x1="309" y1="689" x2="404" y2="846"/>
+            </g>
+            <g id="LINES_167" style="stroke:#c87800;">
+              <line x1="256" y1="763" x2="312" y2="837"/>
+            </g>
+            <g id="LINES_168" style="stroke:#c87800;">
+              <line x1="256" y1="763" x2="314" y2="868"/>
+            </g>
+            <g id="LINES_169" style="stroke:#c87800;">
+              <line x1="351" y1="689" x2="322" y2="750"/>
+            </g>
+            <g id="LINES_170" style="stroke:#c87800;">
+              <line x1="312" y1="837" x2="357" y2="814"/>
+            </g>
+            <g id="LINES_171" style="stroke:#c87800;">
+              <line x1="404" y1="846" x2="314" y2="868"/>
+            </g>
+            <g id="LINES_172" style="stroke:#c87800;">
+              <line x1="404" y1="846" x2="434" y2="964"/>
+            </g>
+            <g id="LINES_173" style="stroke:#c87800;">
+              <line x1="314" y1="868" x2="266" y2="976"/>
+            </g>
+            <g id="LINES_174" style="stroke:#c87800;">
+              <line x1="434" y1="964" x2="459" y2="1110"/>
+            </g>
+            <g id="LINES_175" style="stroke:#c87800;">
+              <line x1="266" y1="976" x2="221" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 1600)">
+            <g id="LINES_176" style="stroke:#c87800;">
+              <line x1="181" y1="712" x2="179" y2="704"/>
+            </g>
+            <g id="LINES_177" style="stroke:#c87800;">
+              <line x1="181" y1="712" x2="168" y2="718"/>
+            </g>
+            <g id="LINES_178" style="stroke:#c87800;">
+              <line x1="179" y1="704" x2="203" y2="703"/>
+            </g>
+            <g id="LINES_179" style="stroke:#c87800;">
+              <line x1="168" y1="718" x2="175" y2="741"/>
+            </g>
+            <g id="LINES_180" style="stroke:#c87800;">
+              <line x1="235" y1="708" x2="200" y2="780"/>
+            </g>
+            <g id="LINES_181" style="stroke:#c87800;">
+              <line x1="235" y1="708" x2="231" y2="680"/>
+            </g>
+            <g id="LINES_182" style="stroke:#c87800;">
+              <line x1="235" y1="708" x2="382" y2="823"/>
+            </g>
+            <g id="LINES_183" style="stroke:#c87800;">
+              <line x1="200" y1="780" x2="276" y2="812"/>
+            </g>
+            <g id="LINES_184" style="stroke:#c87800;">
+              <line x1="200" y1="780" x2="286" y2="863"/>
+            </g>
+            <g id="LINES_185" style="stroke:#c87800;">
+              <line x1="231" y1="680" x2="213" y2="752"/>
+            </g>
+            <g id="LINES_186" style="stroke:#c87800;">
+              <line x1="276" y1="812" x2="313" y2="765"/>
+            </g>
+            <g id="LINES_187" style="stroke:#c87800;">
+              <line x1="382" y1="823" x2="286" y2="863"/>
+            </g>
+            <g id="LINES_188" style="stroke:#c87800;">
+              <line x1="382" y1="823" x2="421" y2="957"/>
+            </g>
+            <g id="LINES_189" style="stroke:#c87800;">
+              <line x1="286" y1="863" x2="248" y2="957"/>
+            </g>
+            <g id="LINES_190" style="stroke:#c87800;">
+              <line x1="421" y1="957" x2="456" y2="1105"/>
+            </g>
+            <g id="LINES_191" style="stroke:#c87800;">
+              <line x1="248" y1="957" x2="215" y2="1105"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 1600)">
+            <g id="LINES_192" style="stroke:#c87800;">
+              <line x1="293" y1="671" x2="301" y2="664"/>
+            </g>
+            <g id="LINES_193" style="stroke:#c87800;">
+              <line x1="293" y1="671" x2="285" y2="668"/>
+            </g>
+            <g id="LINES_194" style="stroke:#c87800;">
+              <line x1="301" y1="664" x2="319" y2="672"/>
+            </g>
+            <g id="LINES_195" style="stroke:#c87800;">
+              <line x1="285" y1="668" x2="287" y2="678"/>
+            </g>
+            <g id="LINES_196" style="stroke:#c87800;">
+              <line x1="349" y1="681" x2="288" y2="738"/>
+            </g>
+            <g id="LINES_197" style="stroke:#c87800;">
+              <line x1="349" y1="681" x2="296" y2="713"/>
+            </g>
+            <g id="LINES_198" style="stroke:#c87800;">
+              <line x1="349" y1="681" x2="387" y2="845"/>
+            </g>
+            <g id="LINES_199" style="stroke:#c87800;">
+              <line x1="288" y1="738" x2="283" y2="777"/>
+            </g>
+            <g id="LINES_200" style="stroke:#c87800;">
+              <line x1="288" y1="738" x2="296" y2="867"/>
+            </g>
+            <g id="LINES_201" style="stroke:#c87800;">
+              <line x1="296" y1="713" x2="206" y2="730"/>
+            </g>
+            <g id="LINES_202" style="stroke:#c87800;">
+              <line x1="283" y1="777" x2="307" y2="764"/>
+            </g>
+            <g id="LINES_203" style="stroke:#c87800;">
+              <line x1="387" y1="845" x2="296" y2="867"/>
+            </g>
+            <g id="LINES_204" style="stroke:#c87800;">
+              <line x1="387" y1="845" x2="403" y2="972"/>
+            </g>
+            <g id="LINES_205" style="stroke:#c87800;">
+              <line x1="296" y1="867" x2="249" y2="969"/>
+            </g>
+            <g id="LINES_206" style="stroke:#c87800;">
+              <line x1="403" y1="972" x2="416" y2="1107"/>
+            </g>
+            <g id="LINES_207" style="stroke:#c87800;">
+              <line x1="249" y1="969" x2="219" y2="1093"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 1600)">
+            <g id="LINES_208" style="stroke:#c87800;">
+              <line x1="370" y1="654" x2="378" y2="647"/>
+            </g>
+            <g id="LINES_209" style="stroke:#c87800;">
+              <line x1="370" y1="654" x2="366" y2="651"/>
+            </g>
+            <g id="LINES_210" style="stroke:#c87800;">
+              <line x1="378" y1="647" x2="407" y2="654"/>
+            </g>
+            <g id="LINES_211" style="stroke:#c87800;">
+              <line x1="366" y1="651" x2="387" y2="655"/>
+            </g>
+            <g id="LINES_212" style="stroke:#c87800;">
+              <line x1="446" y1="696" x2="351" y2="719"/>
+            </g>
+            <g id="LINES_213" style="stroke:#c87800;">
+              <line x1="446" y1="696" x2="439" y2="717"/>
+            </g>
+            <g id="LINES_214" style="stroke:#c87800;">
+              <line x1="446" y1="696" x2="429" y2="847"/>
+            </g>
+            <g id="LINES_215" style="stroke:#c87800;">
+              <line x1="351" y1="719" x2="335" y2="765"/>
+            </g>
+            <g id="LINES_216" style="stroke:#c87800;">
+              <line x1="351" y1="719" x2="332" y2="855"/>
+            </g>
+            <g id="LINES_217" style="stroke:#c87800;">
+              <line x1="439" y1="717" x2="361" y2="703"/>
+            </g>
+            <g id="LINES_218" style="stroke:#c87800;">
+              <line x1="335" y1="765" x2="314" y2="801"/>
+            </g>
+            <g id="LINES_219" style="stroke:#c87800;">
+              <line x1="429" y1="847" x2="332" y2="855"/>
+            </g>
+            <g id="LINES_220" style="stroke:#c87800;">
+              <line x1="429" y1="847" x2="422" y2="975"/>
+            </g>
+            <g id="LINES_221" style="stroke:#c87800;">
+              <line x1="332" y1="855" x2="284" y2="973"/>
+            </g>
+            <g id="LINES_222" style="stroke:#c87800;">
+              <line x1="422" y1="975" x2="422" y2="1109"/>
+            </g>
+            <g id="LINES_223" style="stroke:#c87800;">
+              <line x1="284" y1="973" x2="256" y2="1093"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <circle cx="400" cy="70" r="20" style="stroke:#0000ff;"/>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 0)">
+            <circle cx="551" cy="645.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="562" cy="633.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="554" cy="636.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="592" cy="635.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="582" cy="637.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="641" cy="685.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="549" cy="704.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="635" cy="761.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="545" cy="777.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="560" cy="787.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="478" cy="779.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="665" cy="844.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="577" cy="857.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="698" cy="967.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="578" cy="976.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="765" cy="1118.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="567" cy="1120.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 0)">
+            <circle cx="661" cy="641.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="666" cy="626.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="663" cy="631.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="698" cy="624.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="692" cy="629.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="746" cy="683.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="656" cy="689.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="688" cy="751.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="605" cy="741.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="615" cy="772.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="536" cy="743.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="756" cy="851.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="649" cy="848.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="748" cy="976.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="594" cy="933.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="759" cy="1130.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="523" cy="1055.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 0)">
+            <circle cx="491" cy="748.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="482" cy="732.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="482" cy="739.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="499" cy="716.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="500" cy="724.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="575" cy="696.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="521" cy="761.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="615" cy="766.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="531" cy="805.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="559" cy="825.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="465" cy="761.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="672" cy="845.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="584" cy="870.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="696" cy="981.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="549" cy="984.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="757" cy="1129.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="561" cy="1121.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 0)">
+            <circle cx="364" cy="829.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="354" cy="818.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="354" cy="822.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="369" cy="780.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="370" cy="790.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="429" cy="740.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="399" cy="832.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="499" cy="782.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="446" cy="868.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="492" cy="860.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="423" cy="794.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="569" cy="806.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="519" cy="887.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="673" cy="935.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="497" cy="1003.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="809" cy="1002.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="558" cy="1128.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 0)">
+            <circle cx="305" cy="844.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="292" cy="854.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="298" cy="833.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="300" cy="806.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="299" cy="816.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="346" cy="770.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="339" cy="868.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="420" cy="782.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="405" cy="911.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="455" cy="845.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="360" cy="841.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="482" cy="762.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="479" cy="845.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="619" cy="728.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="509" cy="957.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="734" cy="679.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="575" cy="1098.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 0)">
+            <circle cx="302" cy="870.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="289" cy="866.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="292" cy="888.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="278" cy="862.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="298" cy="911.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="300" cy="832.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="351" cy="914.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="372" cy="794.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="413" cy="934.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="446" cy="833.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="345" cy="884.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="426" cy="743.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="469" cy="824.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="498" cy="641.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="585" cy="856.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="555" cy="538.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="713" cy="880.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 0)">
+            <circle cx="335" cy="880.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="324" cy="892.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="341" cy="897.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="321" cy="898.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="366" cy="910.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="309" cy="871.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="397" cy="902.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="352" cy="790.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="462" cy="854.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="433" cy="779.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="389" cy="835.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="359" cy="741.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="426" cy="766.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="358" cy="615.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="546" cy="708.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="342" cy="493.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="653" cy="649.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 1600)">
+            <circle cx="392" cy="894.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="381" cy="905.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="403" cy="892.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="383" cy="913.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="429" cy="889.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="356" cy="900.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="459" cy="873.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="357" cy="805.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="485" cy="803.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="428" cy="764.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="411" cy="812.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="335" cy="760.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="417" cy="758.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="290" cy="660.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="472" cy="606.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="193" cy="543.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="507" cy="512.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 1600)">
+            <circle cx="443" cy="857.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="452" cy="877.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="455" cy="858.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="456" cy="877.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="478" cy="840.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="424" cy="874.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="488" cy="803.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="366" cy="799.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="469" cy="745.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="403" cy="751.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="416" cy="804.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="333" cy="766.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="373" cy="688.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="228" cy="782.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="321" cy="609.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="91" cy="836.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="243" cy="484.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 1600)">
+            <circle cx="466" cy="831.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="478" cy="842.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="478" cy="824.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="477" cy="837.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="487" cy="800.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="441" cy="840.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="478" cy="763.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="386" cy="825.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="450" cy="753.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="394" cy="750.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="411" cy="819.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="329" cy="783.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="341" cy="698.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="256" cy="878.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="251" cy="650.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="170" cy="1014.8889" r="6" style="stroke:#00a000;"/>
+            <circle cx="113" cy="558.8889" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 1600)">
+            <circle cx="452" cy="762.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="465" cy="763.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="455" cy="750.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="461" cy="765.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="433" cy="725.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="415" cy="786.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="402" cy="715.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="386" cy="823.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="394" cy="769.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="345" cy="758.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="390" cy="834.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="300" cy="835.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="240" cy="787.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="314" cy="945.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="179" cy="858.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="271" cy="1109.0000" r="6" style="stroke:#00a000;"/>
+            <circle cx="57" cy="954.0000" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 1600)">
+            <circle cx="353" cy="677.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="362" cy="671.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="348" cy="664.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="358" cy="667.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="315" cy="651.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="344" cy="712.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="285" cy="656.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="332" cy="774.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="275" cy="724.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="248" cy="747.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="341" cy="749.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="269" cy="838.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="186" cy="800.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="297" cy="952.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="176" cy="956.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="271" cy="1106.7778" r="6" style="stroke:#00a000;"/>
+            <circle cx="115" cy="1106.7778" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 1600)">
+            <circle cx="205" cy="604.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="216" cy="597.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="194" cy="593.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="225" cy="610.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="176" cy="603.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="246" cy="664.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="139" cy="648.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="254" cy="755.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="98" cy="738.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="264" cy="795.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="147" cy="733.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="217" cy="814.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="118" cy="807.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="207" cy="953.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="99" cy="942.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="212" cy="1101.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="37" cy="1090.1111" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 1600)">
+            <circle cx="212" cy="601.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="218" cy="594.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="206" cy="591.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="215" cy="602.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="168" cy="597.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="230" cy="671.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="126" cy="643.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="224" cy="754.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="76" cy="731.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="236" cy="801.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="121" cy="698.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="210" cy="820.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="110" cy="803.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="200" cy="943.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="80" cy="942.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="205" cy="1103.1111" r="6" style="stroke:#00a000;"/>
+            <circle cx="41" cy="1100.1111" r="6" style="stroke:#00a000;"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <circle cx="560" cy="70" r="20" style="stroke:#c800ff;"/>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 0)">
+            <g id="LINES_224" style="stroke:#00a000;">
+              <line x1="551" y1="645.8889" x2="562" y2="633.8889"/>
+            </g>
+            <g id="LINES_225" style="stroke:#00a000;">
+              <line x1="551" y1="645.8889" x2="554" y2="636.8889"/>
+            </g>
+            <g id="LINES_226" style="stroke:#00a000;">
+              <line x1="562" y1="633.8889" x2="592" y2="635.8889"/>
+            </g>
+            <g id="LINES_227" style="stroke:#00a000;">
+              <line x1="554" y1="636.8889" x2="582" y2="637.8889"/>
+            </g>
+            <g id="LINES_228" style="stroke:#00a000;">
+              <line x1="641" y1="685.8889" x2="549" y2="704.8889"/>
+            </g>
+            <g id="LINES_229" style="stroke:#00a000;">
+              <line x1="641" y1="685.8889" x2="635" y2="761.8889"/>
+            </g>
+            <g id="LINES_230" style="stroke:#00a000;">
+              <line x1="641" y1="685.8889" x2="665" y2="844.8889"/>
+            </g>
+            <g id="LINES_231" style="stroke:#00a000;">
+              <line x1="549" y1="704.8889" x2="545" y2="777.8889"/>
+            </g>
+            <g id="LINES_232" style="stroke:#00a000;">
+              <line x1="549" y1="704.8889" x2="577" y2="857.8889"/>
+            </g>
+            <g id="LINES_233" style="stroke:#00a000;">
+              <line x1="635" y1="761.8889" x2="560" y2="787.8889"/>
+            </g>
+            <g id="LINES_234" style="stroke:#00a000;">
+              <line x1="545" y1="777.8889" x2="478" y2="779.8889"/>
+            </g>
+            <g id="LINES_235" style="stroke:#00a000;">
+              <line x1="665" y1="844.8889" x2="577" y2="857.8889"/>
+            </g>
+            <g id="LINES_236" style="stroke:#00a000;">
+              <line x1="665" y1="844.8889" x2="698" y2="967.8889"/>
+            </g>
+            <g id="LINES_237" style="stroke:#00a000;">
+              <line x1="577" y1="857.8889" x2="578" y2="976.8889"/>
+            </g>
+            <g id="LINES_238" style="stroke:#00a000;">
+              <line x1="698" y1="967.8889" x2="765" y2="1118.8889"/>
+            </g>
+            <g id="LINES_239" style="stroke:#00a000;">
+              <line x1="578" y1="976.8889" x2="567" y2="1120.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 0)">
+            <g id="LINES_240" style="stroke:#00a000;">
+              <line x1="661" y1="641.8889" x2="666" y2="626.8889"/>
+            </g>
+            <g id="LINES_241" style="stroke:#00a000;">
+              <line x1="661" y1="641.8889" x2="663" y2="631.8889"/>
+            </g>
+            <g id="LINES_242" style="stroke:#00a000;">
+              <line x1="666" y1="626.8889" x2="698" y2="624.8889"/>
+            </g>
+            <g id="LINES_243" style="stroke:#00a000;">
+              <line x1="663" y1="631.8889" x2="692" y2="629.8889"/>
+            </g>
+            <g id="LINES_244" style="stroke:#00a000;">
+              <line x1="746" y1="683.8889" x2="656" y2="689.8889"/>
+            </g>
+            <g id="LINES_245" style="stroke:#00a000;">
+              <line x1="746" y1="683.8889" x2="688" y2="751.8889"/>
+            </g>
+            <g id="LINES_246" style="stroke:#00a000;">
+              <line x1="746" y1="683.8889" x2="756" y2="851.8889"/>
+            </g>
+            <g id="LINES_247" style="stroke:#00a000;">
+              <line x1="656" y1="689.8889" x2="605" y2="741.8889"/>
+            </g>
+            <g id="LINES_248" style="stroke:#00a000;">
+              <line x1="656" y1="689.8889" x2="649" y2="848.8889"/>
+            </g>
+            <g id="LINES_249" style="stroke:#00a000;">
+              <line x1="688" y1="751.8889" x2="615" y2="772.8889"/>
+            </g>
+            <g id="LINES_250" style="stroke:#00a000;">
+              <line x1="605" y1="741.8889" x2="536" y2="743.8889"/>
+            </g>
+            <g id="LINES_251" style="stroke:#00a000;">
+              <line x1="756" y1="851.8889" x2="649" y2="848.8889"/>
+            </g>
+            <g id="LINES_252" style="stroke:#00a000;">
+              <line x1="756" y1="851.8889" x2="748" y2="976.8889"/>
+            </g>
+            <g id="LINES_253" style="stroke:#00a000;">
+              <line x1="649" y1="848.8889" x2="594" y2="933.8889"/>
+            </g>
+            <g id="LINES_254" style="stroke:#00a000;">
+              <line x1="748" y1="976.8889" x2="759" y2="1130.8889"/>
+            </g>
+            <g id="LINES_255" style="stroke:#00a000;">
+              <line x1="594" y1="933.8889" x2="523" y2="1055.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 0)">
+            <g id="LINES_256" style="stroke:#00a000;">
+              <line x1="491" y1="748.8889" x2="482" y2="732.8889"/>
+            </g>
+            <g id="LINES_257" style="stroke:#00a000;">
+              <line x1="491" y1="748.8889" x2="482" y2="739.8889"/>
+            </g>
+            <g id="LINES_258" style="stroke:#00a000;">
+              <line x1="482" y1="732.8889" x2="499" y2="716.8889"/>
+            </g>
+            <g id="LINES_259" style="stroke:#00a000;">
+              <line x1="482" y1="739.8889" x2="500" y2="724.8889"/>
+            </g>
+            <g id="LINES_260" style="stroke:#00a000;">
+              <line x1="575" y1="696.8889" x2="521" y2="761.8889"/>
+            </g>
+            <g id="LINES_261" style="stroke:#00a000;">
+              <line x1="575" y1="696.8889" x2="615" y2="766.8889"/>
+            </g>
+            <g id="LINES_262" style="stroke:#00a000;">
+              <line x1="575" y1="696.8889" x2="672" y2="845.8889"/>
+            </g>
+            <g id="LINES_263" style="stroke:#00a000;">
+              <line x1="521" y1="761.8889" x2="531" y2="805.8889"/>
+            </g>
+            <g id="LINES_264" style="stroke:#00a000;">
+              <line x1="521" y1="761.8889" x2="584" y2="870.8889"/>
+            </g>
+            <g id="LINES_265" style="stroke:#00a000;">
+              <line x1="615" y1="766.8889" x2="559" y2="825.8889"/>
+            </g>
+            <g id="LINES_266" style="stroke:#00a000;">
+              <line x1="531" y1="805.8889" x2="465" y2="761.8889"/>
+            </g>
+            <g id="LINES_267" style="stroke:#00a000;">
+              <line x1="672" y1="845.8889" x2="584" y2="870.8889"/>
+            </g>
+            <g id="LINES_268" style="stroke:#00a000;">
+              <line x1="672" y1="845.8889" x2="696" y2="981.8889"/>
+            </g>
+            <g id="LINES_269" style="stroke:#00a000;">
+              <line x1="584" y1="870.8889" x2="549" y2="984.8889"/>
+            </g>
+            <g id="LINES_270" style="stroke:#00a000;">
+              <line x1="696" y1="981.8889" x2="757" y2="1129.8889"/>
+            </g>
+            <g id="LINES_271" style="stroke:#00a000;">
+              <line x1="549" y1="984.8889" x2="561" y2="1121.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 0)">
+            <g id="LINES_272" style="stroke:#00a000;">
+              <line x1="364" y1="829.8889" x2="354" y2="818.8889"/>
+            </g>
+            <g id="LINES_273" style="stroke:#00a000;">
+              <line x1="364" y1="829.8889" x2="354" y2="822.8889"/>
+            </g>
+            <g id="LINES_274" style="stroke:#00a000;">
+              <line x1="354" y1="818.8889" x2="369" y2="780.8889"/>
+            </g>
+            <g id="LINES_275" style="stroke:#00a000;">
+              <line x1="354" y1="822.8889" x2="370" y2="790.8889"/>
+            </g>
+            <g id="LINES_276" style="stroke:#00a000;">
+              <line x1="429" y1="740.8889" x2="399" y2="832.8889"/>
+            </g>
+            <g id="LINES_277" style="stroke:#00a000;">
+              <line x1="429" y1="740.8889" x2="499" y2="782.8889"/>
+            </g>
+            <g id="LINES_278" style="stroke:#00a000;">
+              <line x1="429" y1="740.8889" x2="569" y2="806.8889"/>
+            </g>
+            <g id="LINES_279" style="stroke:#00a000;">
+              <line x1="399" y1="832.8889" x2="446" y2="868.8889"/>
+            </g>
+            <g id="LINES_280" style="stroke:#00a000;">
+              <line x1="399" y1="832.8889" x2="519" y2="887.8889"/>
+            </g>
+            <g id="LINES_281" style="stroke:#00a000;">
+              <line x1="499" y1="782.8889" x2="492" y2="860.8889"/>
+            </g>
+            <g id="LINES_282" style="stroke:#00a000;">
+              <line x1="446" y1="868.8889" x2="423" y2="794.8889"/>
+            </g>
+            <g id="LINES_283" style="stroke:#00a000;">
+              <line x1="569" y1="806.8889" x2="519" y2="887.8889"/>
+            </g>
+            <g id="LINES_284" style="stroke:#00a000;">
+              <line x1="569" y1="806.8889" x2="673" y2="935.8889"/>
+            </g>
+            <g id="LINES_285" style="stroke:#00a000;">
+              <line x1="519" y1="887.8889" x2="497" y2="1003.8889"/>
+            </g>
+            <g id="LINES_286" style="stroke:#00a000;">
+              <line x1="673" y1="935.8889" x2="809" y2="1002.8889"/>
+            </g>
+            <g id="LINES_287" style="stroke:#00a000;">
+              <line x1="497" y1="1003.8889" x2="558" y2="1128.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 0)">
+            <g id="LINES_288" style="stroke:#00a000;">
+              <line x1="305" y1="844.8889" x2="292" y2="854.8889"/>
+            </g>
+            <g id="LINES_289" style="stroke:#00a000;">
+              <line x1="305" y1="844.8889" x2="298" y2="833.8889"/>
+            </g>
+            <g id="LINES_290" style="stroke:#00a000;">
+              <line x1="292" y1="854.8889" x2="300" y2="806.8889"/>
+            </g>
+            <g id="LINES_291" style="stroke:#00a000;">
+              <line x1="298" y1="833.8889" x2="299" y2="816.8889"/>
+            </g>
+            <g id="LINES_292" style="stroke:#00a000;">
+              <line x1="346" y1="770.8889" x2="339" y2="868.8889"/>
+            </g>
+            <g id="LINES_293" style="stroke:#00a000;">
+              <line x1="346" y1="770.8889" x2="420" y2="782.8889"/>
+            </g>
+            <g id="LINES_294" style="stroke:#00a000;">
+              <line x1="346" y1="770.8889" x2="482" y2="762.8889"/>
+            </g>
+            <g id="LINES_295" style="stroke:#00a000;">
+              <line x1="339" y1="868.8889" x2="405" y2="911.8889"/>
+            </g>
+            <g id="LINES_296" style="stroke:#00a000;">
+              <line x1="339" y1="868.8889" x2="479" y2="845.8889"/>
+            </g>
+            <g id="LINES_297" style="stroke:#00a000;">
+              <line x1="420" y1="782.8889" x2="455" y2="845.8889"/>
+            </g>
+            <g id="LINES_298" style="stroke:#00a000;">
+              <line x1="405" y1="911.8889" x2="360" y2="841.8889"/>
+            </g>
+            <g id="LINES_299" style="stroke:#00a000;">
+              <line x1="482" y1="762.8889" x2="479" y2="845.8889"/>
+            </g>
+            <g id="LINES_300" style="stroke:#00a000;">
+              <line x1="482" y1="762.8889" x2="619" y2="728.8889"/>
+            </g>
+            <g id="LINES_301" style="stroke:#00a000;">
+              <line x1="479" y1="845.8889" x2="509" y2="957.8889"/>
+            </g>
+            <g id="LINES_302" style="stroke:#00a000;">
+              <line x1="619" y1="728.8889" x2="734" y2="679.8889"/>
+            </g>
+            <g id="LINES_303" style="stroke:#00a000;">
+              <line x1="509" y1="957.8889" x2="575" y2="1098.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 0)">
+            <g id="LINES_304" style="stroke:#00a000;">
+              <line x1="302" y1="870.8889" x2="289" y2="866.8889"/>
+            </g>
+            <g id="LINES_305" style="stroke:#00a000;">
+              <line x1="302" y1="870.8889" x2="292" y2="888.8889"/>
+            </g>
+            <g id="LINES_306" style="stroke:#00a000;">
+              <line x1="289" y1="866.8889" x2="278" y2="862.8889"/>
+            </g>
+            <g id="LINES_307" style="stroke:#00a000;">
+              <line x1="292" y1="888.8889" x2="298" y2="911.8889"/>
+            </g>
+            <g id="LINES_308" style="stroke:#00a000;">
+              <line x1="300" y1="832.8889" x2="351" y2="914.8889"/>
+            </g>
+            <g id="LINES_309" style="stroke:#00a000;">
+              <line x1="300" y1="832.8889" x2="372" y2="794.8889"/>
+            </g>
+            <g id="LINES_310" style="stroke:#00a000;">
+              <line x1="300" y1="832.8889" x2="426" y2="743.8889"/>
+            </g>
+            <g id="LINES_311" style="stroke:#00a000;">
+              <line x1="351" y1="914.8889" x2="413" y2="934.8889"/>
+            </g>
+            <g id="LINES_312" style="stroke:#00a000;">
+              <line x1="351" y1="914.8889" x2="469" y2="824.8889"/>
+            </g>
+            <g id="LINES_313" style="stroke:#00a000;">
+              <line x1="372" y1="794.8889" x2="446" y2="833.8889"/>
+            </g>
+            <g id="LINES_314" style="stroke:#00a000;">
+              <line x1="413" y1="934.8889" x2="345" y2="884.8889"/>
+            </g>
+            <g id="LINES_315" style="stroke:#00a000;">
+              <line x1="426" y1="743.8889" x2="469" y2="824.8889"/>
+            </g>
+            <g id="LINES_316" style="stroke:#00a000;">
+              <line x1="426" y1="743.8889" x2="498" y2="641.8889"/>
+            </g>
+            <g id="LINES_317" style="stroke:#00a000;">
+              <line x1="469" y1="824.8889" x2="585" y2="856.8889"/>
+            </g>
+            <g id="LINES_318" style="stroke:#00a000;">
+              <line x1="498" y1="641.8889" x2="555" y2="538.8889"/>
+            </g>
+            <g id="LINES_319" style="stroke:#00a000;">
+              <line x1="585" y1="856.8889" x2="713" y2="880.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 0)">
+            <g id="LINES_320" style="stroke:#00a000;">
+              <line x1="335" y1="880.8889" x2="324" y2="892.8889"/>
+            </g>
+            <g id="LINES_321" style="stroke:#00a000;">
+              <line x1="335" y1="880.8889" x2="341" y2="897.8889"/>
+            </g>
+            <g id="LINES_322" style="stroke:#00a000;">
+              <line x1="324" y1="892.8889" x2="321" y2="898.8889"/>
+            </g>
+            <g id="LINES_323" style="stroke:#00a000;">
+              <line x1="341" y1="897.8889" x2="366" y2="910.8889"/>
+            </g>
+            <g id="LINES_324" style="stroke:#00a000;">
+              <line x1="309" y1="871.8889" x2="397" y2="902.8889"/>
+            </g>
+            <g id="LINES_325" style="stroke:#00a000;">
+              <line x1="309" y1="871.8889" x2="352" y2="790.8889"/>
+            </g>
+            <g id="LINES_326" style="stroke:#00a000;">
+              <line x1="309" y1="871.8889" x2="359" y2="741.8889"/>
+            </g>
+            <g id="LINES_327" style="stroke:#00a000;">
+              <line x1="397" y1="902.8889" x2="462" y2="854.8889"/>
+            </g>
+            <g id="LINES_328" style="stroke:#00a000;">
+              <line x1="397" y1="902.8889" x2="426" y2="766.8889"/>
+            </g>
+            <g id="LINES_329" style="stroke:#00a000;">
+              <line x1="352" y1="790.8889" x2="433" y2="779.8889"/>
+            </g>
+            <g id="LINES_330" style="stroke:#00a000;">
+              <line x1="462" y1="854.8889" x2="389" y2="835.8889"/>
+            </g>
+            <g id="LINES_331" style="stroke:#00a000;">
+              <line x1="359" y1="741.8889" x2="426" y2="766.8889"/>
+            </g>
+            <g id="LINES_332" style="stroke:#00a000;">
+              <line x1="359" y1="741.8889" x2="358" y2="615.8889"/>
+            </g>
+            <g id="LINES_333" style="stroke:#00a000;">
+              <line x1="426" y1="766.8889" x2="546" y2="708.8889"/>
+            </g>
+            <g id="LINES_334" style="stroke:#00a000;">
+              <line x1="358" y1="615.8889" x2="342" y2="493.8889"/>
+            </g>
+            <g id="LINES_335" style="stroke:#00a000;">
+              <line x1="546" y1="708.8889" x2="653" y2="649.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(0, 1600)">
+            <g id="LINES_336" style="stroke:#00a000;">
+              <line x1="392" y1="894.8889" x2="381" y2="905.8889"/>
+            </g>
+            <g id="LINES_337" style="stroke:#00a000;">
+              <line x1="392" y1="894.8889" x2="403" y2="892.8889"/>
+            </g>
+            <g id="LINES_338" style="stroke:#00a000;">
+              <line x1="381" y1="905.8889" x2="383" y2="913.8889"/>
+            </g>
+            <g id="LINES_339" style="stroke:#00a000;">
+              <line x1="403" y1="892.8889" x2="429" y2="889.8889"/>
+            </g>
+            <g id="LINES_340" style="stroke:#00a000;">
+              <line x1="356" y1="900.8889" x2="459" y2="873.8889"/>
+            </g>
+            <g id="LINES_341" style="stroke:#00a000;">
+              <line x1="356" y1="900.8889" x2="357" y2="805.8889"/>
+            </g>
+            <g id="LINES_342" style="stroke:#00a000;">
+              <line x1="356" y1="900.8889" x2="335" y2="760.8889"/>
+            </g>
+            <g id="LINES_343" style="stroke:#00a000;">
+              <line x1="459" y1="873.8889" x2="485" y2="803.8889"/>
+            </g>
+            <g id="LINES_344" style="stroke:#00a000;">
+              <line x1="459" y1="873.8889" x2="417" y2="758.8889"/>
+            </g>
+            <g id="LINES_345" style="stroke:#00a000;">
+              <line x1="357" y1="805.8889" x2="428" y2="764.8889"/>
+            </g>
+            <g id="LINES_346" style="stroke:#00a000;">
+              <line x1="485" y1="803.8889" x2="411" y2="812.8889"/>
+            </g>
+            <g id="LINES_347" style="stroke:#00a000;">
+              <line x1="335" y1="760.8889" x2="417" y2="758.8889"/>
+            </g>
+            <g id="LINES_348" style="stroke:#00a000;">
+              <line x1="335" y1="760.8889" x2="290" y2="660.8889"/>
+            </g>
+            <g id="LINES_349" style="stroke:#00a000;">
+              <line x1="417" y1="758.8889" x2="472" y2="606.8889"/>
+            </g>
+            <g id="LINES_350" style="stroke:#00a000;">
+              <line x1="290" y1="660.8889" x2="193" y2="543.8889"/>
+            </g>
+            <g id="LINES_351" style="stroke:#00a000;">
+              <line x1="472" y1="606.8889" x2="507" y2="512.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(634, 1600)">
+            <g id="LINES_352" style="stroke:#00a000;">
+              <line x1="443" y1="857.8889" x2="452" y2="877.8889"/>
+            </g>
+            <g id="LINES_353" style="stroke:#00a000;">
+              <line x1="443" y1="857.8889" x2="455" y2="858.8889"/>
+            </g>
+            <g id="LINES_354" style="stroke:#00a000;">
+              <line x1="452" y1="877.8889" x2="456" y2="877.8889"/>
+            </g>
+            <g id="LINES_355" style="stroke:#00a000;">
+              <line x1="455" y1="858.8889" x2="478" y2="840.8889"/>
+            </g>
+            <g id="LINES_356" style="stroke:#00a000;">
+              <line x1="424" y1="874.8889" x2="488" y2="803.8889"/>
+            </g>
+            <g id="LINES_357" style="stroke:#00a000;">
+              <line x1="424" y1="874.8889" x2="366" y2="799.8889"/>
+            </g>
+            <g id="LINES_358" style="stroke:#00a000;">
+              <line x1="424" y1="874.8889" x2="333" y2="766.8889"/>
+            </g>
+            <g id="LINES_359" style="stroke:#00a000;">
+              <line x1="488" y1="803.8889" x2="469" y2="745.8889"/>
+            </g>
+            <g id="LINES_360" style="stroke:#00a000;">
+              <line x1="488" y1="803.8889" x2="373" y2="688.8889"/>
+            </g>
+            <g id="LINES_361" style="stroke:#00a000;">
+              <line x1="366" y1="799.8889" x2="403" y2="751.8889"/>
+            </g>
+            <g id="LINES_362" style="stroke:#00a000;">
+              <line x1="469" y1="745.8889" x2="416" y2="804.8889"/>
+            </g>
+            <g id="LINES_363" style="stroke:#00a000;">
+              <line x1="333" y1="766.8889" x2="373" y2="688.8889"/>
+            </g>
+            <g id="LINES_364" style="stroke:#00a000;">
+              <line x1="333" y1="766.8889" x2="228" y2="782.8889"/>
+            </g>
+            <g id="LINES_365" style="stroke:#00a000;">
+              <line x1="373" y1="688.8889" x2="321" y2="609.8889"/>
+            </g>
+            <g id="LINES_366" style="stroke:#00a000;">
+              <line x1="228" y1="782.8889" x2="91" y2="836.8889"/>
+            </g>
+            <g id="LINES_367" style="stroke:#00a000;">
+              <line x1="321" y1="609.8889" x2="243" y2="484.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1268, 1600)">
+            <g id="LINES_368" style="stroke:#00a000;">
+              <line x1="466" y1="831.8889" x2="478" y2="842.8889"/>
+            </g>
+            <g id="LINES_369" style="stroke:#00a000;">
+              <line x1="466" y1="831.8889" x2="478" y2="824.8889"/>
+            </g>
+            <g id="LINES_370" style="stroke:#00a000;">
+              <line x1="478" y1="842.8889" x2="477" y2="837.8889"/>
+            </g>
+            <g id="LINES_371" style="stroke:#00a000;">
+              <line x1="478" y1="824.8889" x2="487" y2="800.8889"/>
+            </g>
+            <g id="LINES_372" style="stroke:#00a000;">
+              <line x1="441" y1="840.8889" x2="478" y2="763.8889"/>
+            </g>
+            <g id="LINES_373" style="stroke:#00a000;">
+              <line x1="441" y1="840.8889" x2="386" y2="825.8889"/>
+            </g>
+            <g id="LINES_374" style="stroke:#00a000;">
+              <line x1="441" y1="840.8889" x2="329" y2="783.8889"/>
+            </g>
+            <g id="LINES_375" style="stroke:#00a000;">
+              <line x1="478" y1="763.8889" x2="450" y2="753.8889"/>
+            </g>
+            <g id="LINES_376" style="stroke:#00a000;">
+              <line x1="478" y1="763.8889" x2="341" y2="698.8889"/>
+            </g>
+            <g id="LINES_377" style="stroke:#00a000;">
+              <line x1="386" y1="825.8889" x2="394" y2="750.8889"/>
+            </g>
+            <g id="LINES_378" style="stroke:#00a000;">
+              <line x1="450" y1="753.8889" x2="411" y2="819.8889"/>
+            </g>
+            <g id="LINES_379" style="stroke:#00a000;">
+              <line x1="329" y1="783.8889" x2="341" y2="698.8889"/>
+            </g>
+            <g id="LINES_380" style="stroke:#00a000;">
+              <line x1="329" y1="783.8889" x2="256" y2="878.8889"/>
+            </g>
+            <g id="LINES_381" style="stroke:#00a000;">
+              <line x1="341" y1="698.8889" x2="251" y2="650.8889"/>
+            </g>
+            <g id="LINES_382" style="stroke:#00a000;">
+              <line x1="256" y1="878.8889" x2="170" y2="1014.8889"/>
+            </g>
+            <g id="LINES_383" style="stroke:#00a000;">
+              <line x1="251" y1="650.8889" x2="113" y2="558.8889"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(1902, 1600)">
+            <g id="LINES_384" style="stroke:#00a000;">
+              <line x1="452" y1="762.0000" x2="465" y2="763.0000"/>
+            </g>
+            <g id="LINES_385" style="stroke:#00a000;">
+              <line x1="452" y1="762.0000" x2="455" y2="750.0000"/>
+            </g>
+            <g id="LINES_386" style="stroke:#00a000;">
+              <line x1="465" y1="763.0000" x2="461" y2="765.0000"/>
+            </g>
+            <g id="LINES_387" style="stroke:#00a000;">
+              <line x1="455" y1="750.0000" x2="433" y2="725.0000"/>
+            </g>
+            <g id="LINES_388" style="stroke:#00a000;">
+              <line x1="415" y1="786.0000" x2="402" y2="715.0000"/>
+            </g>
+            <g id="LINES_389" style="stroke:#00a000;">
+              <line x1="415" y1="786.0000" x2="386" y2="823.0000"/>
+            </g>
+            <g id="LINES_390" style="stroke:#00a000;">
+              <line x1="415" y1="786.0000" x2="300" y2="835.0000"/>
+            </g>
+            <g id="LINES_391" style="stroke:#00a000;">
+              <line x1="402" y1="715.0000" x2="394" y2="769.0000"/>
+            </g>
+            <g id="LINES_392" style="stroke:#00a000;">
+              <line x1="402" y1="715.0000" x2="240" y2="787.0000"/>
+            </g>
+            <g id="LINES_393" style="stroke:#00a000;">
+              <line x1="386" y1="823.0000" x2="345" y2="758.0000"/>
+            </g>
+            <g id="LINES_394" style="stroke:#00a000;">
+              <line x1="394" y1="769.0000" x2="390" y2="834.0000"/>
+            </g>
+            <g id="LINES_395" style="stroke:#00a000;">
+              <line x1="300" y1="835.0000" x2="240" y2="787.0000"/>
+            </g>
+            <g id="LINES_396" style="stroke:#00a000;">
+              <line x1="300" y1="835.0000" x2="314" y2="945.0000"/>
+            </g>
+            <g id="LINES_397" style="stroke:#00a000;">
+              <line x1="240" y1="787.0000" x2="179" y2="858.0000"/>
+            </g>
+            <g id="LINES_398" style="stroke:#00a000;">
+              <line x1="314" y1="945.0000" x2="271" y2="1109.0000"/>
+            </g>
+            <g id="LINES_399" style="stroke:#00a000;">
+              <line x1="179" y1="858.0000" x2="57" y2="954.0000"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(2536, 1600)">
+            <g id="LINES_400" style="stroke:#00a000;">
+              <line x1="353" y1="677.7778" x2="362" y2="671.7778"/>
+            </g>
+            <g id="LINES_401" style="stroke:#00a000;">
+              <line x1="353" y1="677.7778" x2="348" y2="664.7778"/>
+            </g>
+            <g id="LINES_402" style="stroke:#00a000;">
+              <line x1="362" y1="671.7778" x2="358" y2="667.7778"/>
+            </g>
+            <g id="LINES_403" style="stroke:#00a000;">
+              <line x1="348" y1="664.7778" x2="315" y2="651.7778"/>
+            </g>
+            <g id="LINES_404" style="stroke:#00a000;">
+              <line x1="344" y1="712.7778" x2="285" y2="656.7778"/>
+            </g>
+            <g id="LINES_405" style="stroke:#00a000;">
+              <line x1="344" y1="712.7778" x2="332" y2="774.7778"/>
+            </g>
+            <g id="LINES_406" style="stroke:#00a000;">
+              <line x1="344" y1="712.7778" x2="269" y2="838.7778"/>
+            </g>
+            <g id="LINES_407" style="stroke:#00a000;">
+              <line x1="285" y1="656.7778" x2="275" y2="724.7778"/>
+            </g>
+            <g id="LINES_408" style="stroke:#00a000;">
+              <line x1="285" y1="656.7778" x2="186" y2="800.7778"/>
+            </g>
+            <g id="LINES_409" style="stroke:#00a000;">
+              <line x1="332" y1="774.7778" x2="248" y2="747.7778"/>
+            </g>
+            <g id="LINES_410" style="stroke:#00a000;">
+              <line x1="275" y1="724.7778" x2="341" y2="749.7778"/>
+            </g>
+            <g id="LINES_411" style="stroke:#00a000;">
+              <line x1="269" y1="838.7778" x2="186" y2="800.7778"/>
+            </g>
+            <g id="LINES_412" style="stroke:#00a000;">
+              <line x1="269" y1="838.7778" x2="297" y2="952.7778"/>
+            </g>
+            <g id="LINES_413" style="stroke:#00a000;">
+              <line x1="186" y1="800.7778" x2="176" y2="956.7778"/>
+            </g>
+            <g id="LINES_414" style="stroke:#00a000;">
+              <line x1="297" y1="952.7778" x2="271" y2="1106.7778"/>
+            </g>
+            <g id="LINES_415" style="stroke:#00a000;">
+              <line x1="176" y1="956.7778" x2="115" y2="1106.7778"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3170, 1600)">
+            <g id="LINES_416" style="stroke:#00a000;">
+              <line x1="205" y1="604.1111" x2="216" y2="597.1111"/>
+            </g>
+            <g id="LINES_417" style="stroke:#00a000;">
+              <line x1="205" y1="604.1111" x2="194" y2="593.1111"/>
+            </g>
+            <g id="LINES_418" style="stroke:#00a000;">
+              <line x1="216" y1="597.1111" x2="225" y2="610.1111"/>
+            </g>
+            <g id="LINES_419" style="stroke:#00a000;">
+              <line x1="194" y1="593.1111" x2="176" y2="603.1111"/>
+            </g>
+            <g id="LINES_420" style="stroke:#00a000;">
+              <line x1="246" y1="664.1111" x2="139" y2="648.1111"/>
+            </g>
+            <g id="LINES_421" style="stroke:#00a000;">
+              <line x1="246" y1="664.1111" x2="254" y2="755.1111"/>
+            </g>
+            <g id="LINES_422" style="stroke:#00a000;">
+              <line x1="246" y1="664.1111" x2="217" y2="814.1111"/>
+            </g>
+            <g id="LINES_423" style="stroke:#00a000;">
+              <line x1="139" y1="648.1111" x2="98" y2="738.1111"/>
+            </g>
+            <g id="LINES_424" style="stroke:#00a000;">
+              <line x1="139" y1="648.1111" x2="118" y2="807.1111"/>
+            </g>
+            <g id="LINES_425" style="stroke:#00a000;">
+              <line x1="254" y1="755.1111" x2="264" y2="795.1111"/>
+            </g>
+            <g id="LINES_426" style="stroke:#00a000;">
+              <line x1="98" y1="738.1111" x2="147" y2="733.1111"/>
+            </g>
+            <g id="LINES_427" style="stroke:#00a000;">
+              <line x1="217" y1="814.1111" x2="118" y2="807.1111"/>
+            </g>
+            <g id="LINES_428" style="stroke:#00a000;">
+              <line x1="217" y1="814.1111" x2="207" y2="953.1111"/>
+            </g>
+            <g id="LINES_429" style="stroke:#00a000;">
+              <line x1="118" y1="807.1111" x2="99" y2="942.1111"/>
+            </g>
+            <g id="LINES_430" style="stroke:#00a000;">
+              <line x1="207" y1="953.1111" x2="212" y2="1101.1111"/>
+            </g>
+            <g id="LINES_431" style="stroke:#00a000;">
+              <line x1="99" y1="942.1111" x2="37" y2="1090.1111"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g transform="scale(0.360000, 0.360000)">
+          <g transform="translate(3804, 1600)">
+            <g id="LINES_432" style="stroke:#00a000;">
+              <line x1="212" y1="601.1111" x2="218" y2="594.1111"/>
+            </g>
+            <g id="LINES_433" style="stroke:#00a000;">
+              <line x1="212" y1="601.1111" x2="206" y2="591.1111"/>
+            </g>
+            <g id="LINES_434" style="stroke:#00a000;">
+              <line x1="218" y1="594.1111" x2="215" y2="602.1111"/>
+            </g>
+            <g id="LINES_435" style="stroke:#00a000;">
+              <line x1="206" y1="591.1111" x2="168" y2="597.1111"/>
+            </g>
+            <g id="LINES_436" style="stroke:#00a000;">
+              <line x1="230" y1="671.1111" x2="126" y2="643.1111"/>
+            </g>
+            <g id="LINES_437" style="stroke:#00a000;">
+              <line x1="230" y1="671.1111" x2="224" y2="754.1111"/>
+            </g>
+            <g id="LINES_438" style="stroke:#00a000;">
+              <line x1="230" y1="671.1111" x2="210" y2="820.1111"/>
+            </g>
+            <g id="LINES_439" style="stroke:#00a000;">
+              <line x1="126" y1="643.1111" x2="76" y2="731.1111"/>
+            </g>
+            <g id="LINES_440" style="stroke:#00a000;">
+              <line x1="126" y1="643.1111" x2="110" y2="803.1111"/>
+            </g>
+            <g id="LINES_441" style="stroke:#00a000;">
+              <line x1="224" y1="754.1111" x2="236" y2="801.1111"/>
+            </g>
+            <g id="LINES_442" style="stroke:#00a000;">
+              <line x1="76" y1="731.1111" x2="121" y2="698.1111"/>
+            </g>
+            <g id="LINES_443" style="stroke:#00a000;">
+              <line x1="210" y1="820.1111" x2="110" y2="803.1111"/>
+            </g>
+            <g id="LINES_444" style="stroke:#00a000;">
+              <line x1="210" y1="820.1111" x2="200" y2="943.1111"/>
+            </g>
+            <g id="LINES_445" style="stroke:#00a000;">
+              <line x1="110" y1="803.1111" x2="80" y2="942.1111"/>
+            </g>
+            <g id="LINES_446" style="stroke:#00a000;">
+              <line x1="200" y1="943.1111" x2="205" y2="1103.1111"/>
+            </g>
+            <g id="LINES_447" style="stroke:#00a000;">
+              <line x1="80" y1="942.1111" x2="41" y2="1100.1111"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

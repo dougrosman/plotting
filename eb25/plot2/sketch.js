@@ -3,9 +3,9 @@ let emrysPoses = []
 let dougPoses = []
 let allPersons = []
 let index = 0;
-let selectedPoses = [];
+
 let bDoExportSvg = false;
-let yShift = -100;
+let yShift = -30;
 const connections = [
     [0, 1],
     [0, 2],
@@ -41,7 +41,8 @@ function preload() {
 
 
 function setup() {
-    createCanvas(1700, 1100)
+    // 17x11 @96dpi
+    createCanvas(1632, 1056)
     // frameRate(12)
 }
 
@@ -52,12 +53,13 @@ function draw() {
         beginRecordSVG(this, "plotSvg_eb25.svg");
     }
 
-    line(0, height/3, width, height/3)
-    line(0, 2*height/3, width, 2*height/3)
+    //line(0, height/2, width, height/2)
+    //line(100, height/2 - 175, 100, height/2 + 175)
+    //line(0, 2*height/3, width, 2*height/3)
 
     push();
     translate(0, yShift)
-    drawPoses(dougPoses, color(120, 120, 0), 1)
+    drawPoses(dougPoses, color(200, 120, 0), 1)
     
 
     push()
@@ -67,7 +69,7 @@ function draw() {
     pop()
 
 
-    drawPoses(emrysPoses, color(0, 180, 0), 2)
+    drawPoses(emrysPoses, color(0, 160, 0), 2)
     pop();
 
     if (bDoExportSvg) {
@@ -80,18 +82,21 @@ function draw() {
 function drawPoses(person, _stroke, _rectSpacer) {
     let xPos = 0;
     let yPos = 0;
-    let xSpacing = 1520;
-    let ySpacing = 2830;
+    let xSpacing = 634;
+    let ySpacing = 1400;
     let scaleFactor = .36;
-    xSpacing*=scaleFactor;
-    ySpacing*=scaleFactor;
-    let poseSkip = 5;
-    let startPose = 5;
-    let endPose = 15;
+    // xSpacing*=scaleFactor;
+    // ySpacing*=scaleFactor;
+    let poseSkip = 1;
+    let startPose = 0;
+    let endPose = 0;
+    let selectedPoses = [0, 20, 32, 37, 42, 48, 57,
+                        65, 74, 78, 84, 91, 110, 118];
 
     // draw keypoints
-    for (let k = startPose; k < person.length - endPose; k += poseSkip) {
-        let pose = person[k]
+    for (let k = startPose; k < selectedPoses.length - endPose; k += poseSkip) {
+        let poseIndex = selectedPoses[k]
+        let pose = person[poseIndex]
         push()
         scale(scaleFactor)
         translate(xPos, yPos)
@@ -99,7 +104,7 @@ function drawPoses(person, _stroke, _rectSpacer) {
         strokeWeight(2)
         for (kp of pose.keypoints) {
             noFill();
-            circle(kp.x, kp.y, 10)
+            circle(kp.x, kp.y, 12)
         }
         pop();
         xPos += xSpacing
@@ -120,9 +125,9 @@ function drawPoses(person, _stroke, _rectSpacer) {
     pop()
 
     // draw connections
-    for (let k = startPose; k < person.length - endPose; k += poseSkip) {
-
-        let pose = person[k]
+    for (let k = startPose; k < selectedPoses.length - endPose; k += poseSkip) {
+        let poseIndex = selectedPoses[k]
+        let pose = person[poseIndex]
         push()
         scale(scaleFactor)
         translate(xPos, yPos)
