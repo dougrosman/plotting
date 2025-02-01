@@ -1,0 +1,90 @@
+<!-- doog_skele.svg -->
+<!-- Generated using p5.plotSvg: -->
+<!-- A Plotter-Oriented SVG Exporter for p5.js -->
+<!-- Fri Jan 31 2025 18:07:23 GMT-0600 (Central Standard Time) -->
+<!-- DPI: 96 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="3.5in" height="2in" viewBox="0 0 336 192">
+  <style>
+      circle, ellipse, line, path, polygon, polyline, rect, quad, text {
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+<g vector-effect="non-scaling-stroke">
+  <g>
+    <g transform="translate(0, -100)">
+      <g transform="scale(0.250000, 0.250000)">
+        <g id="LINES_0" style="stroke:#ff0000;">
+          <line x1="279.2246" y1="721.2936" x2="465.3971" y2="569.4663"/>
+        </g>
+        <g id="LINES_1" style="stroke:#ff0000;">
+          <line x1="279.2246" y1="721.2936" x2="326.5712" y2="736.3812"/>
+        </g>
+        <g id="LINES_2" style="stroke:#ff0000;">
+          <line x1="465.3971" y1="569.4663" x2="538.0773" y2="510.8334"/>
+        </g>
+        <g id="LINES_3" style="stroke:#ff0000;">
+          <line x1="326.5712" y1="736.3812" x2="372.9444" y2="784.5490"/>
+        </g>
+        <g id="LINES_4" style="stroke:#ff0000;">
+          <line x1="602.7042" y1="603.6219" x2="323.5764" y2="748.4904"/>
+        </g>
+        <g id="LINES_5" style="stroke:#ff0000;">
+          <line x1="602.7042" y1="603.6219" x2="616.7606" y2="899.4466"/>
+        </g>
+        <g id="LINES_6" style="stroke:#ff0000;">
+          <line x1="602.7042" y1="603.6219" x2="503.2402" y2="817.2345"/>
+        </g>
+        <g id="LINES_7" style="stroke:#ff0000;">
+          <line x1="323.5764" y1="748.4904" x2="483.6306" y2="835.8576"/>
+        </g>
+        <g id="LINES_8" style="stroke:#ff0000;">
+          <line x1="323.5764" y1="748.4904" x2="429.5436" y2="745.5750"/>
+        </g>
+        <g id="LINES_9" style="stroke:#ff0000;">
+          <line x1="616.7606" y1="899.4466" x2="458.7052" y2="966.9322"/>
+        </g>
+        <g id="LINES_10" style="stroke:#ff0000;">
+          <line x1="483.6306" y1="835.8576" x2="409.8668" y2="937.4661"/>
+        </g>
+        <g id="LINES_11" style="stroke:#ff0000;">
+          <line x1="503.2402" y1="817.2345" x2="429.5436" y2="745.5750"/>
+        </g>
+        <g id="LINES_12" style="stroke:#ff0000;">
+          <line x1="503.2402" y1="817.2345" x2="511.7783" y2="1033.7137"/>
+        </g>
+        <g id="LINES_13" style="stroke:#ff0000;">
+          <line x1="429.5436" y1="745.5750" x2="346.6625" y2="1106.2944"/>
+        </g>
+        <g id="LINES_14" style="stroke:#ff0000;">
+          <line x1="511.7783" y1="1033.7137" x2="313.2034" y2="1083.4154"/>
+        </g>
+        <g id="LINES_15" style="stroke:#ff0000;">
+          <line x1="346.6625" y1="1106.2944" x2="161.9533" y2="1128.2009"/>
+        </g>
+        <circle cx="279.2246" cy="721.2936" r="3" style="stroke:#ff0000;"/>
+        <circle cx="465.3971" cy="569.4663" r="3" style="stroke:#ff0000;"/>
+        <circle cx="326.5712" cy="736.3812" r="3" style="stroke:#ff0000;"/>
+        <circle cx="538.0773" cy="510.8334" r="3" style="stroke:#ff0000;"/>
+        <circle cx="372.9444" cy="784.5490" r="3" style="stroke:#ff0000;"/>
+        <circle cx="602.7042" cy="603.6219" r="3" style="stroke:#ff0000;"/>
+        <circle cx="323.5764" cy="748.4904" r="3" style="stroke:#ff0000;"/>
+        <circle cx="616.7606" cy="899.4466" r="3" style="stroke:#ff0000;"/>
+        <circle cx="483.6306" cy="835.8576" r="3" style="stroke:#ff0000;"/>
+        <circle cx="458.7052" cy="966.9322" r="3" style="stroke:#ff0000;"/>
+        <circle cx="409.8668" cy="937.4661" r="3" style="stroke:#ff0000;"/>
+        <circle cx="503.2402" cy="817.2345" r="3" style="stroke:#ff0000;"/>
+        <circle cx="429.5436" cy="745.5750" r="3" style="stroke:#ff0000;"/>
+        <circle cx="511.7783" cy="1033.7137" r="3" style="stroke:#ff0000;"/>
+        <circle cx="346.6625" cy="1106.2944" r="3" style="stroke:#ff0000;"/>
+        <circle cx="313.2034" cy="1083.4154" r="3" style="stroke:#ff0000;"/>
+        <circle cx="161.9533" cy="1128.2009" r="3" style="stroke:#ff0000;"/>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>
