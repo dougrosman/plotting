@@ -39,9 +39,9 @@ let sketch = function (p) {
   // drawHands draws the hands, and accepts arguments for various modes for drawing the hand connections
   p.drawHands = function () {
     p.drawConnectingLines(modes[mode]);
-    p.drawSeparator();
+    //p.drawSeparator();
     p.drawHandLines();
-    p.drawSeparator();
+    //p.drawSeparator();
     p.drawLandmarks();
   }
 
