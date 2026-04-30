@@ -19,13 +19,13 @@ function setup() {
     // @96dpi
     createCanvas(WIDTH * DPI, HEIGHT * DPI)
 
-        if (bDoExportSvg) { beginRecordSVG(this, `doog_skele_crumple${crumple}.svg`); }
+        if (bDoExportSvg) { beginRecordSvg(this, `thank-you.svg`); }
 
         guides();
         makePattern(marginX, height/2);
         makePattern(2*marginX + 5.5*DPI, height/2)
 
-        if (bDoExportSvg) { endRecordSVG(); }
+        if (bDoExportSvg) { endRecordSvg(); }
     
 }
 
@@ -43,11 +43,12 @@ function makePattern(_x, _y) {
         //let yPos = 0
         const xStart = DPI/2.3
         let yStart = 3*DPI/4
+        let petals = [1, 2, 4, 8]
 
         /// ROW 1
         push()
         translate(-sca/2, 0)
-        let numPetals = 1
+        let numPetals = petals[0]
         flower("T", xStart + (xPos), yStart, numPetals, sca)
         flower("H", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
         flower("A", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
@@ -65,7 +66,7 @@ function makePattern(_x, _y) {
         yStart+=(3*ySpacing/4)
 
         /// ROW 2
-        numPetals = 2
+        numPetals = petals[1]
         flower("T", xStart + (xPos), yStart, numPetals, sca)
         flower("H", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
         flower("A", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
@@ -82,7 +83,7 @@ function makePattern(_x, _y) {
         yStart+=ySpacing
 
          /// ROW 3
-         numPetals = 4
+         numPetals = petals[2]
         flower("T", xStart + (xPos), yStart, numPetals, sca)
         flower("H", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
         flower("A", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
@@ -99,7 +100,7 @@ function makePattern(_x, _y) {
         yStart+=ySpacing
 
          /// ROW 4
-         numPetals = 8
+         numPetals = petals[3]
         flower("T", xStart + (xPos), yStart, numPetals, sca)
         flower("H", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
         flower("A", xStart + (xPos+=xSpacing), yStart, numPetals, sca)
